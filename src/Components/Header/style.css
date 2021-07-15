@@ -1,0 +1,56 @@
+.navbar.bg-dark {
+  background-color: #000000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255) !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .pt-3.container {
+    max-width: 1012px;
+  }
+}
+
+.navbar-brand {
+  height: 89px;
+}
+
+.nav-link {
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+.form-control {
+
+  background-color: transparent !important;
+  border: none !important;   
+  border-bottom: 1px solid #FFFFFF !important;
+  border-radius: 0 !important;
+  margin-bottom: 20px;
+  }
+
+  .img {
+    margin: -28px;
+    margin-top: -40px;
+  }

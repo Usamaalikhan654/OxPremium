@@ -1,0 +1,17 @@
+.header-pic {
+    background-image: url("../../Assets/Rectangle\ 162.png");
+    background-size: cover;
+    background-position: center center;
+    padding: 20% !important;
+}
+
+.head-1 {
+    color: white;
+}
+
+.para-1 {
+    color: white;
+    position: relative;
+    top: 250px;
+}
+
