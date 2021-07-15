@@ -311,7 +311,7 @@ export default class Services extends React.Component {
             </div>
           </div>
         </div>
-        <div className="contain">
+        {/* <div className="contain">
         <div class="Bianer">
             <small>LEATHER GOODS AND FOOTWEAR</small>
         </div>
@@ -320,7 +320,7 @@ export default class Services extends React.Component {
         <div class="Bianer2">
             <small>LEATHER GOODS AND FOOTWEAR</small>
         </div>
- </div>
+ </div> */}
       </div>
     )
   }
