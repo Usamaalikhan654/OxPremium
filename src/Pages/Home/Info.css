@@ -106,7 +106,6 @@
   border-color: #000000;
 }
 
-
 .button.btn-primary:hover {
   border-color: black;
 }
@@ -138,21 +137,24 @@
 }
 
 .col-lg-6.page-text {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
     justify-content: space-between; */
 }
 
 .button-form.btn.btn-primary {
   border: none;
-  }
+}
 
-  .btn-primary:focus {
-    box-shadow: none !important;
-  }
+.btn-primary:focus {
+  box-shadow: none !important;
+}
 
-  .head2 {
- 
-    margin-top: 5rem;
-    }
+.head2 {
+  margin-top: 5rem;
+}
+
+body {
+  background: #e1e1e1;
+}
