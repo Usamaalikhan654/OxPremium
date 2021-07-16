@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../Includes/Fonts/Roboto-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Carmen sans";
+  src:  url('../../Includes/Fonts/CarmenSans-Regular.ttf') format('truetype'),
+        url('../../Includes/Fonts/Carmen-Sans-Regular.otf') format('otf'),
+}
+
+@font-face {
+  font-family: "Carmen sans";
+  src: url("../../Includes/Fonts/CarmenSans-Regular.ttf");
+  font-weight: normal;
+}
+
+/* // @font-face {
+//   font-family: "Oswald Regular";
+//   src: url("../../Includes/Fonts/Oswald-Regular.ttf");
+//   font-weight: normal;
+// }
+
+// @font-face {
+//   font-family: "Oswald Bold";
+//   src: url("../../Includes/Fonts/Oswald-Bold.ttf");
+//   font-weight: bold;
+// }
+
+// @font-face {
+//   font-family: "Oswald light";
+//   src: url("../../Includes/Fonts/Oswald-Light.ttf");
+//   font-weight: bold;
+// } */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-style: normal;
+}
+
+p,
+a {
+  font-family: "Carmen sans";
+  font-weight: normal;
+  font-style: normal;
+}
+
+button.btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+}
+
+nav a {
+  font-family: "Carmen sans";
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-size: 18px;
+}
+
+small {
+  font-family: "Carmen Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+
+span {
+font-family: "Carmen Sans";
+font-style: normal;
+font-weight: normal;
+}
