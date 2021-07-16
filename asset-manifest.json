@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OxPremium/static/css/main.49f414ef.chunk.css",
+    "main.css": "/OxPremium/static/css/main.2a25f96b.chunk.css",
     "main.js": "/OxPremium/static/js/main.14e4f757.chunk.js",
     "main.js.map": "/OxPremium/static/js/main.14e4f757.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.f77c06b3.js",
@@ -12,10 +12,11 @@
     "static/js/3.2be01a4e.chunk.js.map": "/OxPremium/static/js/3.2be01a4e.chunk.js.map",
     "index.html": "/OxPremium/index.html",
     "static/css/2.0343b79c.chunk.css.map": "/OxPremium/static/css/2.0343b79c.chunk.css.map",
-    "static/css/main.49f414ef.chunk.css.map": "/OxPremium/static/css/main.49f414ef.chunk.css.map",
+    "static/css/main.2a25f96b.chunk.css.map": "/OxPremium/static/css/main.2a25f96b.chunk.css.map",
     "static/js/2.c5f2974e.chunk.js.LICENSE.txt": "/OxPremium/static/js/2.c5f2974e.chunk.js.LICENSE.txt",
     "static/media/001.b672b93f.jpg": "/OxPremium/static/media/001.b672b93f.jpg",
     "static/media/002.10daa489.jpg": "/OxPremium/static/media/002.10daa489.jpg",
+    "static/media/style.css": "/OxPremium/static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/Group 1-2.3223b55a.png": "/OxPremium/static/media/Group 1-2.3223b55a.png",
     "static/media/Group 1-3.aa3e76fd.png": "/OxPremium/static/media/Group 1-3.aa3e76fd.png",
     "static/media/Group 1.90c06fb2.png": "/OxPremium/static/media/Group 1.90c06fb2.png",
@@ -42,7 +43,7 @@
     "static/js/runtime-main.f77c06b3.js",
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.c5f2974e.chunk.js",
-    "static/css/main.49f414ef.chunk.css",
+    "static/css/main.2a25f96b.chunk.css",
     "static/js/main.14e4f757.chunk.js"
   ]
 }
