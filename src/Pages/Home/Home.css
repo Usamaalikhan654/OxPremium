@@ -1,4 +1,8 @@
 .custom-container {
-    display: flex;
-    justify-content: center;
-    }
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: #e1e1e1;
+}
