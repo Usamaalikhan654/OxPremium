@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OxPremium/static/css/main.b7c042ad.chunk.css",
-    "main.js": "/OxPremium/static/js/main.14e4f757.chunk.js",
-    "main.js.map": "/OxPremium/static/js/main.14e4f757.chunk.js.map",
+    "main.js": "/OxPremium/static/js/main.bd972085.chunk.js",
+    "main.js.map": "/OxPremium/static/js/main.bd972085.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.f77c06b3.js",
     "runtime-main.js.map": "/OxPremium/static/js/runtime-main.f77c06b3.js.map",
     "static/css/2.0343b79c.chunk.css": "/OxPremium/static/css/2.0343b79c.chunk.css",
@@ -24,7 +24,6 @@
     "static/media/Group 3.888fed08.png": "/OxPremium/static/media/Group 3.888fed08.png",
     "static/media/Group 4.8f792fa9.png": "/OxPremium/static/media/Group 4.8f792fa9.png",
     "static/media/Group 5.c46c41d1.png": "/OxPremium/static/media/Group 5.c46c41d1.png",
-    "static/media/National-Refinery2.a808f1dc.jpg": "/OxPremium/static/media/National-Refinery2.a808f1dc.jpg",
     "static/media/PROFILE NEW-33 1.47754a4a.jpg": "/OxPremium/static/media/PROFILE NEW-33 1.47754a4a.jpg",
     "static/media/P_and_G_Procter_and_Gamble_logo 1.0f2d9fc5.jpg": "/OxPremium/static/media/P_and_G_Procter_and_Gamble_logo 1.0f2d9fc5.jpg",
     "static/media/Product.css": "/OxPremium/static/media/Rectangle 162.94f54c6f.png",
@@ -44,6 +43,6 @@
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.c5f2974e.chunk.js",
     "static/css/main.b7c042ad.chunk.css",
-    "static/js/main.14e4f757.chunk.js"
+    "static/js/main.bd972085.chunk.js"
   ]
 }
