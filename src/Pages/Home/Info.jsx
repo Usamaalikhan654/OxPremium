@@ -12,7 +12,10 @@ import pic9 from "../../Assets/PROFILE NEW-35 1.png"
 import pic10 from "../../Assets/content_1564482812-500sharp 1.png"
 import {Form, Button} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import pic11 from "../../Assets/National-Refinery 2.png"
+import pic12 from "../../Assets/suzuki-logo-1-1 1.png"
+import pic13 from "../../Assets/P_and_G_Procter_and_Gamble_logo 1.png"
+import pic14 from "../../Assets/PROFILE NEW-33 1.png"
 
 function Info() {
 
@@ -104,16 +107,16 @@ function Info() {
             </div>
             <div className="row">
               <div className="col-lg-3 img-box">
-                <img src={pic7} className="img-fluid" width="100px" height="150px" />
+                <img src={pic11} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic8} className="img-fluid" width={100} height="150px" />
+                <img src={pic12} className="img-fluid" width={100} height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic9} className="img-fluid" width="100px" height="150px" />
+                <img src={pic13} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic10} className="img-fluid" width="100px" height="150px" />
+                <img src={pic14} className="img-fluid" width="100px" height="150px" />
               </div>
             </div>
             <div className="row">
