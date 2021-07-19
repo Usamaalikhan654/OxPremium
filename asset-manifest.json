@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OxPremium/static/css/main.b7c042ad.chunk.css",
-    "main.js": "/OxPremium/static/js/main.79fbd0e7.chunk.js",
-    "main.js.map": "/OxPremium/static/js/main.79fbd0e7.chunk.js.map",
+    "main.js": "/OxPremium/static/js/main.4e5c0396.chunk.js",
+    "main.js.map": "/OxPremium/static/js/main.4e5c0396.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.f77c06b3.js",
     "runtime-main.js.map": "/OxPremium/static/js/runtime-main.f77c06b3.js.map",
     "static/css/2.0343b79c.chunk.css": "/OxPremium/static/css/2.0343b79c.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/Group 3.888fed08.png": "/OxPremium/static/media/Group 3.888fed08.png",
     "static/media/Group 4.8f792fa9.png": "/OxPremium/static/media/Group 4.8f792fa9.png",
     "static/media/Group 5.c46c41d1.png": "/OxPremium/static/media/Group 5.c46c41d1.png",
+    "static/media/National-Refinery 2.dc5770ac.png": "/OxPremium/static/media/National-Refinery 2.dc5770ac.png",
     "static/media/Product.css": "/OxPremium/static/media/Rectangle 162.94f54c6f.png",
     "static/media/b1 1.15334b0b.png": "/OxPremium/static/media/b1 1.15334b0b.png",
     "static/media/jacket 1.a28d792d.png": "/OxPremium/static/media/jacket 1.a28d792d.png",
@@ -40,6 +41,6 @@
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.c5f2974e.chunk.js",
     "static/css/main.b7c042ad.chunk.css",
-    "static/js/main.79fbd0e7.chunk.js"
+    "static/js/main.4e5c0396.chunk.js"
   ]
 }
