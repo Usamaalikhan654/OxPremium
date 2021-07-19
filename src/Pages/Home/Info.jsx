@@ -128,7 +128,7 @@ function Info() {
                 <img src={pic7} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic8} className="img-fluid" width={100} height="150px" />
+                <img src={pic8} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
                 <img src={pic9} className="img-fluid" width="100px" height="150px" />
