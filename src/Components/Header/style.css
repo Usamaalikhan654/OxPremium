@@ -59,7 +59,7 @@
 
   a:hover {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none !important;
     }
 
   a {
