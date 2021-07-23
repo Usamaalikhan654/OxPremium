@@ -46,6 +46,7 @@ export default class Services extends React.Component {
     return (
       <div>
         <div className="container">
+        <div className="sub-container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
               <h3>LEATHER GOODS &amp; FOOTWEAR</h3>
@@ -64,6 +65,7 @@ export default class Services extends React.Component {
             <div className="col-lg-6 page-image">
               <img src={photo} className="img-fluid" width="400px" height="300px" />
             </div>
+          </div>
           </div>
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
