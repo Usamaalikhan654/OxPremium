@@ -58,9 +58,10 @@
   }
 
   a:hover {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     }
-    a {
-    color: white;
+
+  a {
+    color: #ffffff;
     }
