@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OxPremium/static/css/main.0f763209.chunk.css",
-    "main.js": "/OxPremium/static/js/main.4d47fc6a.chunk.js",
-    "main.js.map": "/OxPremium/static/js/main.4d47fc6a.chunk.js.map",
+    "main.js": "/OxPremium/static/js/main.d8abb84d.chunk.js",
+    "main.js.map": "/OxPremium/static/js/main.d8abb84d.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.f77c06b3.js",
     "runtime-main.js.map": "/OxPremium/static/js/runtime-main.f77c06b3.js.map",
     "static/css/2.0343b79c.chunk.css": "/OxPremium/static/css/2.0343b79c.chunk.css",
@@ -33,14 +33,13 @@
     "static/media/slide1.cb377d22.png": "/OxPremium/static/media/slide1.cb377d22.png",
     "static/media/web opt 2-26.7f098c2b.jpg": "/OxPremium/static/media/web opt 2-26.7f098c2b.jpg",
     "static/media/web opt 2-27 1.7e7f26e9.png": "/OxPremium/static/media/web opt 2-27 1.7e7f26e9.png",
-    "static/media/web opt 2-27 2.8b22768f.png": "/OxPremium/static/media/web opt 2-27 2.8b22768f.png",
-    "static/media/white-logo-01 1.76f06506.jpg": "/OxPremium/static/media/white-logo-01 1.76f06506.jpg"
+    "static/media/web opt 2-27 2.8b22768f.png": "/OxPremium/static/media/web opt 2-27 2.8b22768f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f77c06b3.js",
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.c5f2974e.chunk.js",
     "static/css/main.0f763209.chunk.css",
-    "static/js/main.4d47fc6a.chunk.js"
+    "static/js/main.d8abb84d.chunk.js"
   ]
 }
