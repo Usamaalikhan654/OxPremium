@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OxPremium/static/css/main.0f763209.chunk.css",
-    "main.js": "/OxPremium/static/js/main.82c3a85d.chunk.js",
-    "main.js.map": "/OxPremium/static/js/main.82c3a85d.chunk.js.map",
+    "main.js": "/OxPremium/static/js/main.b6916184.chunk.js",
+    "main.js.map": "/OxPremium/static/js/main.b6916184.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.f77c06b3.js",
     "runtime-main.js.map": "/OxPremium/static/js/runtime-main.f77c06b3.js.map",
     "static/css/2.0343b79c.chunk.css": "/OxPremium/static/css/2.0343b79c.chunk.css",
@@ -40,6 +40,6 @@
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.2822942c.chunk.js",
     "static/css/main.0f763209.chunk.css",
-    "static/js/main.82c3a85d.chunk.js"
+    "static/js/main.b6916184.chunk.js"
   ]
 }
