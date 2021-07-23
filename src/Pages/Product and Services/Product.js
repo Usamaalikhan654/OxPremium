@@ -19,13 +19,7 @@ const Product = () => {
     Manufacturing Comfort. Delivering Choice.
     </p>
     <p className="para-1">
-  <Breadcrumb>
-  <Breadcrumb.Item active><Link to={"/Product"}>Products</Link></Breadcrumb.Item>
-  <Breadcrumb.Item>
-    Library
-  </Breadcrumb.Item>
-  <Breadcrumb.Item active>Data</Breadcrumb.Item>
-</Breadcrumb>
+
 </p>
   </Container>
 </Jumbotron>
