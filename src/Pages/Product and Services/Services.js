@@ -45,7 +45,7 @@ export default class Services extends React.Component {
   render() {
     return (
       <div>
-        <div className="container">
+       
         <div className="sub-container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
@@ -67,6 +67,7 @@ export default class Services extends React.Component {
             </div>
           </div>
           </div>
+          <div className="container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
               <h3>FOOTWEAR</h3>
