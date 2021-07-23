@@ -60,7 +60,7 @@ button.btn {
 
 nav a {
   font-family: "Carmen sans";
-  font-weight: normal;
+  font-weight: 400 !important;
   font-style: normal;
 }
 
