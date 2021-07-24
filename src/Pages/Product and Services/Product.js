@@ -19,6 +19,7 @@ const Product = () => {
     Manufacturing Comfort. Delivering Choice.
     </p>
     <p className="para-1">
+    <Link to={Product}>Leather Goods And Footwear|</Link>
     <Link>Leather Goods And Footwear|</Link>
 </p>
   </Container>
