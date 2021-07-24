@@ -20,7 +20,7 @@ const Product = () => {
     </p>
     <p className="para-1">
     <Link to="/Product">Leather Goods And Footwear|</Link>
-    <Link>Leather Goods And Footwear|</Link>
+    <Link to="/">Leather Goods And Footwear|</Link>
 </p>
   </Container>
 </Jumbotron>
