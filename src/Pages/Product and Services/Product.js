@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header.js";
 import { Jumbotron, Container } from "react-bootstrap";
 import "./Product.css"
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
-import { Link } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 
 const Product = () => {
   return (
@@ -19,8 +19,8 @@ const Product = () => {
     Manufacturing Comfort. Delivering Choice.
     </p>
     <p className="para-1">
-    <Link to="/Product">Leather Goods And Footwear|</Link>
-    <Link to="/">Leather Goods And Footwear|</Link>
+    <NavLink to="/Product">Leather Goods And Footwear|</NavLink>
+    <NavLink to="/">Leather Goods And Footwear|</NavLink>
 </p>
   </Container>
 </Jumbotron>
