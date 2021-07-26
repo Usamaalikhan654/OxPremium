@@ -6,7 +6,7 @@ import Twitter from "../../Assets/Vector (1).png"
 import Insta from "../../Assets/Vector (2).png"
 import Print from "../../Assets/Vector (3).png"
 
-const Footer = () => <footer className="page-footer font-small blue pt-4">
+const Footer = () => <footer className="page-footer font-small blue p">
     <div className="container text-center text-md-left">
         <div className="row">
             <div className="col-md-2 mt-md-0 mt-3 text-center">
