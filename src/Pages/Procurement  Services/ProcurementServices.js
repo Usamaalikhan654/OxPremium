@@ -5,13 +5,14 @@ import Header from "../../Components/Header/Header.js";
 import { Jumbotron, Container } from "react-bootstrap";
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import { Link , NavLink } from "react-router-dom";
+import "./ProcurementServices.css"
 
 const ProcurementServices = () => {
   return (
   <div>
   <div>
     <Header/>
-    <Jumbotron fluid className="header-pic">
+    <Jumbotron fluid className="header2">
   <Container className="text-center">
     <h1 className="head-1">PRODUCTS AND SERVICES</h1>
     <p className="head-1">
@@ -23,7 +24,7 @@ const ProcurementServices = () => {
     <NavLink to="/Procure"><b>Procurement Services</b></NavLink>
 </p>
   </Container>
-</Jumbotron>
+ </Jumbotron>
 </div>
      <Procurement/>
      <Footer/>
