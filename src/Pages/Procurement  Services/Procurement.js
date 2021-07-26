@@ -6,6 +6,8 @@ import image from "../../Assets/magic.png"
 import image1 from "../../Assets/Sanitizer.png"
 import image2 from "../../Assets/Bag.png"
 import image3 from "../../Assets/Lock.png"
+import image4 from "../../Assets/Mask.png"
+
 
 export default class Services extends React.Component {
     constructor(props) {
@@ -85,22 +87,22 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider1 = slider)}
                       >
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image4} className="img-fluid" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image4}  className="img-fluid" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image4}  className="img-fluid" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image4}  className="img-fluid" />
                         </div>
                         <div>
-                          <img src="#"className="img-fluid" />
+                          <img src={image4} className="img-fluid" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image4}  className="img-fluid" />
                         </div>
 
                       </Slider>
