@@ -53,7 +53,7 @@ export default class Services extends React.Component {
                         focusOnSelect={true}
                       >
                        <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image}  className="img-fluid" width="210px" />
                         </div>
                         <div>
                           <img src="#" className="img-fluid" width="210px" />
@@ -83,7 +83,7 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider1 = slider)}
                       >
                         <div>
-                          <img src={image} className="img-fluid" />
+                          <img src="#" className="img-fluid" />
                         </div>
                         <div>
                           <img src="#" className="img-fluid" />
