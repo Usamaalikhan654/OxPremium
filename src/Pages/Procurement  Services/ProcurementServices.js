@@ -20,7 +20,7 @@ const ProcurementServices = () => {
     <p className="para-1">
     <NavLink to="/Product">Leather Goods And Footwear |</NavLink>
     <NavLink to="/Train">Training and Consultancies |</NavLink>
-    <NavLink to="/">P<b>rocurement Services</b></NavLink>
+    <NavLink to="/Procure"><b>Procurement Services</b></NavLink>
 </p>
   </Container>
 </Jumbotron>

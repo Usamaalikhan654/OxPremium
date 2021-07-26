@@ -20,7 +20,7 @@ const Traindisplay = () => {
       <p className="para-1">
       <NavLink to="/Product">Leather Goods And Footwear |</NavLink>
       <NavLink to="/Train"><b>Training and Consultancies |</b></NavLink>
-      <NavLink to="/">Procurement Services</NavLink>
+      <NavLink to="/Procure">Procurement Services</NavLink>
   </p>
     </Container>
   </Jumbotron>
