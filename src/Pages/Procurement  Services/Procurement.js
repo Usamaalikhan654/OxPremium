@@ -3,6 +3,7 @@ import "./Procurement.css"
 import Slider from "react-slick";
 import arrownext from "../../Assets/arrow-next.png"
 import image from "../../Assets/magic.png"
+import image1 from "../../Assets/Sanitizer.png"
 
 
 export default class Services extends React.Component {
@@ -56,7 +57,7 @@ export default class Services extends React.Component {
                           <img src={image}  className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image1}  className="img-fluid" width="210px" />
                         </div>
                         <div>
                           <img src="#" className="img-fluid" width="210px" />
