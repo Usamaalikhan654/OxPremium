@@ -11,7 +11,7 @@ const Traindisplay = () => {
     <div>
     <div>
       <Header/>
-      <Jumbotron fluid className="header-pic">
+      <Jumbotron fluid className="header1">
     <Container className="text-center">
       <h1 className="head-1">PRODUCTS AND SERVICES</h1>
       <p className="head-1">
