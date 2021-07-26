@@ -65,3 +65,7 @@
   a {
     color: #ffffff !important;
     }
+
+    .para-1 a {
+        padding: 0 6px;
+    }
