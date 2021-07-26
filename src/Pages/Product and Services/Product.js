@@ -20,7 +20,8 @@ const Product = () => {
     </p>
     <p className="para-1">
     <NavLink to="/Product">Leather Goods And Footwear|</NavLink>
-    <NavLink to="/">Leather Goods And Footwear|</NavLink>
+    <NavLink to="/">Training and Consultancies|</NavLink>
+    <NavLink>Procurement Services</NavLink>
 </p>
   </Container>
 </Jumbotron>
