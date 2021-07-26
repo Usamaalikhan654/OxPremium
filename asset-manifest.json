@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OxPremium/static/css/main.1c6f3154.chunk.css",
-    "main.js": "/OxPremium/static/js/main.1148007d.chunk.js",
-    "main.js.map": "/OxPremium/static/js/main.1148007d.chunk.js.map",
+    "main.js": "/OxPremium/static/js/main.f7291fe2.chunk.js",
+    "main.js.map": "/OxPremium/static/js/main.f7291fe2.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.8df2c954.js",
     "runtime-main.js.map": "/OxPremium/static/js/runtime-main.8df2c954.js.map",
     "static/css/2.0343b79c.chunk.css": "/OxPremium/static/css/2.0343b79c.chunk.css",
@@ -26,6 +26,7 @@
     "static/media/Group 4.8f792fa9.png": "/OxPremium/static/media/Group 4.8f792fa9.png",
     "static/media/Group 5.c46c41d1.png": "/OxPremium/static/media/Group 5.c46c41d1.png",
     "static/media/Lock.a186a715.png": "/OxPremium/static/media/Lock.a186a715.png",
+    "static/media/Mask.66ceb79f.png": "/OxPremium/static/media/Mask.66ceb79f.png",
     "static/media/National-Refinery 2.dc5770ac.png": "/OxPremium/static/media/National-Refinery 2.dc5770ac.png",
     "static/media/ProcurementServices.css": "/OxPremium/static/media/Procurementbanner.8b7e692e.png",
     "static/media/Product.css": "/OxPremium/static/media/Rectangle 162.94f54c6f.png",
@@ -47,6 +48,6 @@
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.513718a3.chunk.js",
     "static/css/main.1c6f3154.chunk.css",
-    "static/js/main.1148007d.chunk.js"
+    "static/js/main.f7291fe2.chunk.js"
   ]
 }
