@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import photo1 from "../../Assets/web opt 2-30 1.png"
+import "./Training.css"
 
  function Training () {
       return (

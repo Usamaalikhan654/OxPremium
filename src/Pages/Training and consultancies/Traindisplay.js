@@ -4,6 +4,7 @@ import Header from "../../Components/Header/Header.js";
 import { Jumbotron, Container } from "react-bootstrap";
 import Footer from "../../Components/Footer/Footer";
 import { NavLink } from "react-router-dom";
+import "./Traindisplay.css"
 
 const Traindisplay = () => {
     return (
