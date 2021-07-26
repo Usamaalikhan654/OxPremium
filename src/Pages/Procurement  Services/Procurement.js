@@ -2,6 +2,8 @@ import React from "react";
 import "./Procurement.css"
 import Slider from "react-slick";
 import arrownext from "../../Assets/arrow-next.png"
+import image from "../../Assets/magic.png"
+
 
 export default class Services extends React.Component {
     constructor(props) {
@@ -81,7 +83,7 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider1 = slider)}
                       >
                         <div>
-                          <img src="#" className="img-fluid" />
+                          <img src={image} className="img-fluid" />
                         </div>
                         <div>
                           <img src="#" className="img-fluid" />
