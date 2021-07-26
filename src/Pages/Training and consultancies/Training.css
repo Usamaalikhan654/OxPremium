@@ -1,0 +1,119 @@
+.container {
+    border: 1px solid red;
+    min-height: 900px;
+  }
+  .main-heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #030104;
+    margin-top:20px;
+  }
+  .main-heading small {
+    font-family: Carmen Sans;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+  }
+  .hr-line {
+    border: 1px solid gray;
+  }
+  .page-text {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+    padding-top: 20px;
+  
+  }
+  
+  /* The CSS you dont want in to be applied on moble and Ipad */
+  
+  @media (min-width: 769px) {
+    .col-lg-6.page-image {
+      text-align: center;
+      padding: 25px;
+    }
+    .main-heading {
+      text-align: left;
+      padding-left: 25px;
+      }
+    .img-slider{
+    margin-top:42%;
+    padding: 10px;
+    
+    
+    }
+    .img-slider2{
+      margin-top: 15%;
+      padding: 10px;
+    }
+  
+  }
+  
+  .img-box {
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .bottom-heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #030104;
+    padding-top: 50px;
+  }
+  .hr-line2 {
+    border: 1px solid gray;
+  }
+  .images-box{
+    border:0px solid orange;
+     margin-left:50px;
+    background-color: lightgray;
+    width: 420px;
+    height: 400px;  
+    
+  }
+  @media(max-width:768px){
+    .images-box{
+      width:100%;
+      margin:0px;
+      
+  }
+  .img-slider .col-lg-3 .img-fluid {
+    margin-bottom: 20px;
+  }
+  .img-slider2 .col-lg-3 .img-fluid {
+    margin-bottom: 20px;
+  }
+   
+  }
+  .img-center{
+    padding-top: 100px;
+  }
+  .img-slider .col-lg-3 .img-fluid {
+    padding: 20px 10px;
+    background: #CDCDCD;
+    
+    
+  }
+  .img-slider2 .col-lg-3 .img-fluid {
+    padding: 20px 10px;
+    background: #CDCDCD;
+    
+    
+  }
+  .page-text ul{
+  text-align: left;
+  padding-left: 30px;
+  }
+  
+  
