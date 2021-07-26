@@ -4,7 +4,8 @@ import Slider from "react-slick";
 import arrownext from "../../Assets/arrow-next.png"
 import image from "../../Assets/magic.png"
 import image1 from "../../Assets/Sanitizer.png"
-
+import image2 from "../../Assets/Bag.png"
+import image3 from "../../Assets/Lock.png"
 
 export default class Services extends React.Component {
     constructor(props) {
@@ -60,16 +61,16 @@ export default class Services extends React.Component {
                           <img src={image1}  className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image2} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image3} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image1} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src="#" className="img-fluid" width="210px" />
+                          <img src={image} className="img-fluid" width="210px" />
                         </div>
                       </Slider>
                       
