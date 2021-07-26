@@ -18,8 +18,8 @@ const Traindisplay = () => {
       Manufacturing Comfort. Delivering Choice.
       </p>
       <p className="para-1">
-      <NavLink to="/Product"><b>Leather Goods And Footwear|</b></NavLink>
-      <NavLink to="/Train">Training and Consultancies|</NavLink>
+      <NavLink to="/Product">Leather Goods And Footwear |</NavLink>
+      <NavLink to="/Train"><b>Training and Consultancies |</b></NavLink>
       <NavLink to="/">Procurement Services</NavLink>
   </p>
     </Container>
