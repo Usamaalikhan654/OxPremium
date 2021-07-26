@@ -7,9 +7,9 @@ import Insta from "../../Assets/Vector (2).png"
 import Print from "../../Assets/Vector (3).png"
 
 const Footer = () => <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
+    <div className="container text-center text-md-left">
         <div className="row">
-            <div className="col-md-3 mt-md-0 mt-3 text-center">
+            <div className="col-md-2 mt-md-0 mt-3 text-center">
                     <img src={Logo1}/>
             </div>
 
@@ -31,7 +31,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-lg-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">TRAINING AND CONSULTANCIES</h5>      
             </div>
-            <div className="col-lg-3 mb-md-0 mb-3">
+            <div className="col-lg-4 mb-md-0 mb-3">
             <h5 className="text-uppercase">PROCUREMENT SERVICES</h5>
                 <ul className="list-unstyled">
                     <li>Safety PPE’s</li>
