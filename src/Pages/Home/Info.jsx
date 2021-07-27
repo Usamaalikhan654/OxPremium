@@ -56,7 +56,6 @@ function Info() {
                 <img src={pic1} className="img-fluid" width="400px" height="300px" />
               </div>
             </div>
-            </div>
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
                 <h3>PRODUCTS AND SERVICES</h3>
@@ -160,7 +159,7 @@ function Info() {
              <p className="foot-para">By subscribing, you accept that you like to hear about products, services, events, sales and marketing from OX Premium<br/> (including personalised online content and advertising through OX Premium website, social media platforms or our online<br/> partners). For more details, please read our Privacy Policy.</p>  
             </div>
           </div>
-    
+        </div>
       );
     }
 
