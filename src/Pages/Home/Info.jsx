@@ -25,12 +25,6 @@ function Info() {
 
       return (
         <div>
-          <meta charSet="UTF-8" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossOrigin="anonymous" />
-          <link rel="stylesheet" href="index.css" />
-          <title>Welcome to news site</title>
           <div className="container">
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
@@ -61,6 +55,7 @@ function Info() {
               <div className="col-lg-6 page-image">
                 <img src={pic1} className="img-fluid" width="400px" height="300px" />
               </div>
+            </div>
             </div>
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
@@ -165,7 +160,7 @@ function Info() {
              <p className="foot-para">By subscribing, you accept that you like to hear about products, services, events, sales and marketing from OX Premium<br/> (including personalised online content and advertising through OX Premium website, social media platforms or our online<br/> partners). For more details, please read our Privacy Policy.</p>  
             </div>
           </div>
-        </div>
+    
       );
     }
 
