@@ -5,7 +5,7 @@ import "./Training.css"
 
  function Training () {
       return (
-        <div className="contain-1">
+        <div>
           <div className="container">
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
