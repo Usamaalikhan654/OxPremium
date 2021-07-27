@@ -4,3 +4,23 @@
     background-position: center center;
     padding: 20% !important;
 }
+
+.head-2 {
+    color: white;
+    font-family: Carmen Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.head-1 {
+    color: white;
+    font-family: Carmen Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
