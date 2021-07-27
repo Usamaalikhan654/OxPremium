@@ -15,7 +15,7 @@ const Product = () => {
     <Jumbotron fluid className="header-pic">
   <Container className="text-center">
     <h1 className="head-1">PRODUCTS AND SERVICES</h1>
-    <p className="head-1">
+    <p className="head-2">
     Manufacturing Comfort. Delivering Choice.
     </p>
     <p className="para-1">
