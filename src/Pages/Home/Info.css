@@ -158,3 +158,26 @@
 .Fi-region {
 margin-bottom: 15rem;
 }
+
+@media (max-width: 480px) {
+  .bottom-heading form {
+    width: 75%;
+    }
+
+      .foot-head1 {
+        text-align: none;
+        padding-right: 0px;
+        }
+        .foot-head {
+          text-align: center;
+          }
+
+          .foot-head span {
+            display: block;
+            margin-bottom: 20px;
+            }
+
+            .foot-head > span:nth-child(2) {
+              white-space: nowrap;
+              }
+}
