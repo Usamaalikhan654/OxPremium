@@ -165,16 +165,18 @@ margin-bottom: 15rem;
     }
 
       .foot-head1 {
-        text-align: none;
+        text-align: center;
         padding-right: 0px;
         }
         .foot-head {
           text-align: center;
+          padding-left: 0px;
           }
 
           .foot-head span {
             display: block;
             margin-bottom: 20px;
+            margin-right: 0px;
             }
 
             .foot-head > span:nth-child(2) {
