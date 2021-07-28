@@ -78,6 +78,7 @@ text-transform: uppercase;
 
 @media (max-width: 480px) {
   .foot-head1 {
+    text-align: center;
     padding-right: 0px;
     }
     .foot-head {
