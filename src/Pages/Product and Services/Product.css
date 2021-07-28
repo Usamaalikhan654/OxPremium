@@ -30,3 +30,7 @@
     line-height: 25px;
     text-align: center;
 }
+
+.jumbotron {
+    margin-bottom: 0px !important;
+}
