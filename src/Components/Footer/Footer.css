@@ -75,3 +75,22 @@ text-transform: uppercase;
 .pat {
   padding-top: 102px;
 }
+
+@media (max-width: 480px) {
+  .foot-head1 {
+    padding-right: 0px;
+    }
+    .foot-head {
+      text-align: center;
+      padding-left: 0px;
+      }
+
+      .foot-head span {
+        display: block;
+        margin-bottom: 20px;
+        }
+
+        .foot-head > span:nth-child(2) {
+          white-space: nowrap;
+          }
+}

@@ -164,21 +164,4 @@ margin-bottom: 15rem;
     width: 75%;
     }
 
-      .foot-head1 {
-        padding-right: 0px;
-        }
-        .foot-head {
-          text-align: center;
-          padding-left: 0px;
-          }
-
-          .foot-head span {
-            display: block;
-            margin-bottom: 20px;
-            margin-right: 0px;
-            }
-
-            .foot-head > span:nth-child(2) {
-              white-space: nowrap;
-              }
 }
