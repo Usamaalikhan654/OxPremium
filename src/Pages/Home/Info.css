@@ -163,5 +163,7 @@ margin-bottom: 15rem;
   .bottom-heading form {
     width: 75%;
     }
-
+  .size {
+    padding: 3%;
+  }
 }

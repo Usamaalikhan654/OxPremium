@@ -79,7 +79,7 @@ function Info() {
                   <span className="head2">Leather Goods And Footwear   |    Procurement Services    |    Training and Consultancies</span>
               </div>
               <div className="col-lg-6 page-image">
-                <img src={pic2} className="img-fluid" width="400px" height="300px" />
+                <img src={pic2} className="img-fluid size" width="400px" height="300px" />
               </div>
             </div>
             <div className="main-heading row">
