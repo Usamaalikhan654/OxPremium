@@ -27,6 +27,7 @@ const Product = () => {
 </Jumbotron>
 </div>
      <Services/>
+     <Footer/>
 </div>
  
   
