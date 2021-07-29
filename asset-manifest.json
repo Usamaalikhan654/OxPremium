@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OxPremium/static/css/main.b03b590a.chunk.css",
+    "main.css": "/OxPremium/static/css/main.9ec27b5a.chunk.css",
     "main.js": "/OxPremium/static/js/main.15c95e2d.chunk.js",
     "main.js.map": "/OxPremium/static/js/main.15c95e2d.chunk.js.map",
     "runtime-main.js": "/OxPremium/static/js/runtime-main.8df2c954.js",
@@ -12,7 +12,7 @@
     "static/js/3.15709383.chunk.js.map": "/OxPremium/static/js/3.15709383.chunk.js.map",
     "index.html": "/OxPremium/index.html",
     "static/css/2.0343b79c.chunk.css.map": "/OxPremium/static/css/2.0343b79c.chunk.css.map",
-    "static/css/main.b03b590a.chunk.css.map": "/OxPremium/static/css/main.b03b590a.chunk.css.map",
+    "static/css/main.9ec27b5a.chunk.css.map": "/OxPremium/static/css/main.9ec27b5a.chunk.css.map",
     "static/js/2.513718a3.chunk.js.LICENSE.txt": "/OxPremium/static/js/2.513718a3.chunk.js.LICENSE.txt",
     "static/media/001.b672b93f.jpg": "/OxPremium/static/media/001.b672b93f.jpg",
     "static/media/002.10daa489.jpg": "/OxPremium/static/media/002.10daa489.jpg",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.8df2c954.js",
     "static/css/2.0343b79c.chunk.css",
     "static/js/2.513718a3.chunk.js",
-    "static/css/main.b03b590a.chunk.css",
+    "static/css/main.9ec27b5a.chunk.css",
     "static/js/main.15c95e2d.chunk.js"
   ]
 }
