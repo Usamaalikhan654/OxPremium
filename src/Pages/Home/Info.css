@@ -164,6 +164,9 @@ margin-bottom: 15rem;
     width: 75%;
     }
   .size {
-    padding: 3%;
+    padding-top: 12%;
   }
+  .head2 {
+    margin-top: 2rem;
+    }
 }
