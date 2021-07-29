@@ -70,7 +70,7 @@ export default class Services extends React.Component {
           </div>
           </div>
         </div>
-          <div className="container">
+          <div className="container bg">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
               <h3>FOOTWEAR</h3>
