@@ -64,7 +64,7 @@ export default class Services extends React.Component {
                 <span className="head1"> Footwear | Safety Shoes | Leather Goods | Brand Responsibilities</span>
             </div>
             <div className="col-lg-6 page-image">
-              <img src={photo} className="img-fluid" width="400px" height="300px" />
+              <img src={photo} className="img-fluid pixel" width="400px" height="300px" />
             </div>
           </div>
           </div>
