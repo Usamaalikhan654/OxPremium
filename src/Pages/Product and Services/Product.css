@@ -34,3 +34,14 @@
 .jumbotron {
     margin-bottom: 0px !important;
 }
+
+@media (max-width: 480px) {
+    .para-1 {
+        top: 0px;
+        }
+        .header-pic {
+
+            padding: 2rem 1rem;
+            background-position: center;
+            }
+}
