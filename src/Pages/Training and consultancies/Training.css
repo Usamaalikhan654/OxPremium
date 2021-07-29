@@ -105,3 +105,9 @@
     padding-bottom: 1px;
     margin-bottom: 0px !important;
     }
+
+ @media (max-width: 480px) {
+  .hexa {
+    padding-top: 30px;
+    }
+ }

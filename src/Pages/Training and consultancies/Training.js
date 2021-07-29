@@ -20,7 +20,7 @@ import "./Training.css"
                    Whether it is about the safety of your staff, your equipment or the services you deliver, we have a highly skilled squad of trainers who not only develop a customized training and workshop for your staff’s safety but also design manual to keep your equipment and processes safe. We also offer safety consultancies to our clients to help them equip in handling the challenges they face. </p>
               </div>
               <div className="col-lg-6 page-image">
-                <img src={photo1} className="img-fluid" width="400px" height="300px" />
+                <img src={photo1} className="img-fluid hexa" width="400px" height="300px" />
               </div>
             </div>
           </div>
