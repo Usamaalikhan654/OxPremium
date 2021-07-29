@@ -73,3 +73,14 @@
     .page-image .slick-arrow {
       display: none !important;
       }
+
+      .left-slider .slick-slider {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        left: 0;
+        }
+
+        .col-lg-6.page-text {
+          position: relative;
+          }
