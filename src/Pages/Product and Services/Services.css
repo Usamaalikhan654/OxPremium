@@ -92,6 +92,7 @@
 
   .Fi-region {
     margin-bottom: 5rem;
+    width: auto !important;
     }
 
 @media (max-width: 480px) {
@@ -102,5 +103,8 @@
     .head1 {
 
       margin-top: 3rem;
+      }
+      .left-slider .slick-slider {
+        margin-top: 18%;
       }
 }
