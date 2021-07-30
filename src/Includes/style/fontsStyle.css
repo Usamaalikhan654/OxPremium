@@ -74,6 +74,13 @@ small {
   font-family: "Carmen Sans";
   font-style: normal;
   font-weight: 500;
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 10px;
+  text-align: center;
+  color: #FEFEFE;
 }
 
 span {
