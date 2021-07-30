@@ -82,7 +82,9 @@
   top: 58%;
 }
 
-
+.contain {
+  position: relative;
+}
 
 .container-bg {
   background-color: #E1E1E1;
