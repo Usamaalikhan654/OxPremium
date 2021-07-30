@@ -44,7 +44,7 @@ export default class Services extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div  className="contain">
         <div className="container-bg">
         <div className="container">
         <div className="sub-container">
@@ -317,7 +317,7 @@ export default class Services extends React.Component {
             </div>
           </div>
         </div>
-        <div className="contain">
+        <div>
         <div class="Bianer">
             <small>LEATHER GOODS AND FOOTWEAR</small>
         </div>
