@@ -36,22 +36,16 @@ function Info() {
             <hr className="hr-line" />
             <div className="row Fi-region">
               <div className="col-lg-6 page-text">
-                <p>OX Premium Company is a leading multidisciplinary company deals in crafting, manufacturing and export
-                  of premium, lifestyle leather goods including safety shoes. We are mindful and protective in the
-                  handling and crafting of our leather products and we bring innovation to it. Since we handle our
-                  leather with old school craftsmanship , we believe our products carry the poise and endurance while
-                  flaunting
-                  exquisite details. <br /><br />
-                  Along with leather goods, footwear and safety shoes manufacturing, the services of OX Premium
-                  Company also include specialised safety related training, consultancy, engineering supplies and
-                  procurement supplies. We truly understand the core concern of our clients that goes around the
-                  safety of
-                  its employees as well as of its systems.<br /><br />
-                  OX is a registered vendor of KE and is responsible to provide a variety of products and services
-                  including the provision of Safety PPEs, Safety Shoes and various other services. Currently we are
-                  driven to extend our services of providing full-fledged safety and technical training and for that
-                  we are establishing the
-                  outdoor and indoor training facility.</p>
+                <p>With a vision to create ease for our customers, our mission is to deliver premium products and solutions to the requirements of our customers by making processes efficient and hassle free.<br/><br/> 
+
+The combination of this thorough process, extensive experience, creativity and a highly skilled staff helps us to ensure that our customer gets best solutions with highest efficiency. For our customers, we take an active role during the whole purchasing process, monitoring the entire flow from supplier sourcing to final delivery. We ensure to provide solutions that incorporate customized functionality specific to the client’s requirements.<br/><br/> 
+
+Our offering is diverse and it ranges from making finest shoes to premium leather products to sourcing safety PPEs and other industrial & office equipment. We are mindful in crafting, designing and manufacturing our premium shoes collection which includes both consumer & safety shoes. Also, our wide range of quality leather products are the seal of enduring elegance.<br/><br/> 
+
+Our team specializes in sourcing safety PPE’s, Industrial & office equipment and Covid-19 supplies to help our nation through this difficult period.<br/><br/> 
+
+OX Premium Company is a part of Rehmani Group of companies. It is a multidisciplinary company that aims to develop long-term relationships based on trust, transparency and integrity.<br/><br/>
+</p>
               </div>
               <div className="col-lg-6 page-image">
               <div className="background-img">
