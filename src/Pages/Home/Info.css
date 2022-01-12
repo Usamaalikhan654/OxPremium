@@ -1,3 +1,10 @@
+.align {
+  background-color: black;
+  margin-left: 26%;
+  padding: 10%;
+  margin-top: 14px;
+}
+
 .main-heading {
   font-family: Roboto;
   font-style: normal;

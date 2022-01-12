@@ -21,6 +21,8 @@ import pic16 from "../../Assets/PROFILE NEW-38 1.png"
 import pic17 from "../../Assets/PROFILE NEW-36 1.png"
 import pic18 from "../../Assets/PROFILE NEW-37 1.png"
 import pic19 from "../../Assets/apk.png"
+import pic20 from "../../Assets/ivan-zhu.png"
+import pic21 from "../../Assets/grid 2.png"
 
 function Info() {
 
@@ -76,7 +78,19 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                   <span className="head2">Leather Goods And Footwear   |    Procurement Services    |    Training and Consultancies</span>
               </div>
               <div className="col-lg-6 page-image">
-                <img src={pic2} className="img-fluid size" width="400px" height="300px" />
+                {/* <img src={pic2} className="img-fluid size" width="400px" height="300px" /> */}
+                <div class="row">
+  <div class="align" style="background-color: black;margin-left: 26%;padding: 10%;margin-top: 14px;">
+  <div class="row">
+    <div class="col-lg-4 text-white"><img src={pic20} className="img-fluid"/> </div>
+    
+    <div class="col-lg-4 text-white">Column</div>
+    <div class="w-100"></div>
+    <div class="col-lg-4 text-white">Column</div>
+    <div class="col-lg-4 text-white"><img src={pic21} className="img-fluid"/> </div>
+  </div>
+</div>
+  </div>
               </div>
             </div>
             <div className="main-heading row">
