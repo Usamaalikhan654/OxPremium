@@ -79,8 +79,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
               </div>
               <div className="col-lg-6 page-image">
                 {/* <img src={pic2} className="img-fluid size" width="400px" height="300px" /> */}
-                <div class="row">
-  <div class="align" style="background-color: black;margin-left: 26%;padding: 10%;margin-top: 14px;">
+  <div class="align">
   <div class="row">
     <div class="col-lg-4 text-white"><img src={pic20} className="img-fluid"/> </div>
     
@@ -90,7 +89,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
     <div class="col-lg-4 text-white"><img src={pic21} className="img-fluid"/> </div>
   </div>
 </div>
-  </div>
+  
               </div>
             </div>
             <div className="main-heading row">
