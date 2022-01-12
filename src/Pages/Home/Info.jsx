@@ -54,7 +54,9 @@ function Info() {
                   outdoor and indoor training facility.</p>
               </div>
               <div className="col-lg-6 page-image">
+              <div className="background-img">
                 <img src={pic19} className="img-fluid" width="400px" height="300px" />
+              </div>
               </div>
             </div>
             <div className="main-heading row">

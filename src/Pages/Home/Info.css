@@ -6,6 +6,10 @@
   color: #030104;
   margin-top: 20px;
 }
+
+.background-img {
+  background-color: black;
+}
 .main-heading small {
   font-family: Carmen Sans;
   font-style: normal;
@@ -156,21 +160,21 @@
 }
 
 .Fi-region {
-margin-bottom: 15rem;
+  margin-bottom: 15rem;
 }
 
 @media (max-width: 480px) {
   .bottom-heading form {
     width: 75%;
-    }
+  }
   .size {
     padding-top: 12%;
   }
   .head2 {
     margin-top: 2rem;
-    }
+  }
 }
 
 .bg {
   padding-top: 8%;
-  }
+}
