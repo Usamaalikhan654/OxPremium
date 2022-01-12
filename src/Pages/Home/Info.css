@@ -9,6 +9,8 @@
 
 .background-img {
   background-color: black;
+  padding: 5%;
+  margin: 8%;
 }
 .main-heading small {
   font-family: Carmen Sans;
