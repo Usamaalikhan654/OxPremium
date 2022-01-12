@@ -20,6 +20,7 @@ import pic15 from "../../Assets/1280px-Logo_Alcon 1.png"
 import pic16 from "../../Assets/PROFILE NEW-38 1.png"
 import pic17 from "../../Assets/PROFILE NEW-36 1.png"
 import pic18 from "../../Assets/PROFILE NEW-37 1.png"
+import pic19 from "../../Assets/apk.png"
 
 function Info() {
 
@@ -53,7 +54,7 @@ function Info() {
                   outdoor and indoor training facility.</p>
               </div>
               <div className="col-lg-6 page-image">
-                <img src={pic1} className="img-fluid" width="400px" height="300px" />
+                <img src={pic19} className="img-fluid" width="400px" height="300px" />
               </div>
             </div>
             <div className="main-heading row">
