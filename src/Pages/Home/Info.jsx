@@ -23,15 +23,17 @@ import pic18 from "../../Assets/PROFILE NEW-37 1.png"
 import pic19 from "../../Assets/apk.png"
 import pic20 from "../../Assets/ivan-zhu.png"
 import pic21 from "../../Assets/grid 2.png"
+import {Link} from 'react-router-dom';
 
 function Info() {
 
       return (
-        <div>
+        
+        <div>      
           <div className="container bg">
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
-                <h3>About Us</h3>
+                <h3 id='about'>About Us</h3>
                 <small>Striving for Lifestyle &amp; Safety </small>
               </div>
             </div>
@@ -57,44 +59,46 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
             </div>
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
-                <h3>PRODUCTS AND SERVICES</h3>
+                <h3 id='offering'>OUR OFFERING</h3>
                 <small>Manufacturing Comfort. Delivering Choice.</small>
               </div>
             </div>
             <hr className="hr-line" />
             <div className="row Fi-region">
               <div className="col-lg-6 page-text">
-                <p>OX Premium Company takes huge pride in offering wide variety of leather products and services
-                  including footwear, safety shoes, leather jackets, bags, satchels, wallets, keychains, diaries, card
-                  holders and gift items as well procurement services including Safety PPEs, Covid-19 Supplies,
-                  General Gift Items, Office Supplies, Engineering Supplies or any other product or accessory our
-                  client requires. Since, our operations are customer-centric and our manufacturing and procurement
-                  capacity is highly adaptive, therefore we can offer tailor-made products for all our clients
-                  including retail stores, wholesale agents or corporates looking for premium giveaways and special
-                  services.<br /><br />
-                  We also provide safety training and consultancy to organizations and institutions and help them in
-                  increasing their capacity while ensuring the protection of their resources and
-                  assets. We also export our leather products and have client world over .</p>
-                  <span className="head2">Leather Goods And Footwear   |    Procurement Services    |    Training and Consultancies</span>
+                <p>We offer a wide variety of leather products including footwear, safety shoes, jackets,    bags, satchels, wallets, and other items.<br/><br/>
+
+                   Along with this we have a comprehensive procurement solution including sourcing of Safety PPEs, Covid-19 Supplies, General Gift Items, Office Supplies, Engineering Supplies or any other item of interest for our client. We are a customer centric firm that excels in delivering the right mix to our client.
+                </p>
               </div>
               <div className="col-lg-6 page-image">
                 {/* <img src={pic2} className="img-fluid size" width="400px" height="300px" /> */}
-  <div class="align">
-  <div class="row">
-    <div class="col-lg-4 text-white"><img src={pic20} className="img-fluid"/> </div>
-    
-    <div class="col-lg-4 text-white">Column</div>
-    <div class="w-100"></div>
-    <div class="col-lg-4 text-white">Column</div>
-    <div class="col-lg-4 text-white"><img src={pic21} className="img-fluid"/> </div>
-  </div>
-</div>
+              <div class="align">
+                <div class="row">
+                  <div class="col-lg-6 text-white"><img src={pic20} className="img-fluid"/> </div>
+                  <div class="col-lg-6 text-white">
+                    <p>Footwear & Leather Goods</p>
+                    <Link to="/Product">
+                    <Button className="grid-button">View</Button>
+                    </Link>
+                  </div>
+                </div>
+                <div className="row">
+                  <div class="col-lg-6 text-white"> 
+                  <p>Procurement Services</p>
+                  <Link to="/Procure">
+                  <Button  className="grid-button">View</Button>
+                  </Link>
+                  </div>
+                  <div class="col-lg-6 text-white"><img src={pic21} className="img-fluid"/> </div>
+                </div>
+               </div>
   
               </div>
             </div>
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
-                <h3>OUR CLIENTS AND PARTNERS</h3>
+                <h3 id='clients'>OUR CLIENTS AND PARTNERS</h3>
                 <small>We Deliver Trust.</small>
               </div>
             </div>
@@ -118,7 +122,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                 <img src={pic11} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic12} className="img-fluid" width={100} height="150px" />
+                <img src={pic12} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
                 <img src={pic13} className="img-fluid" width="100px" height="150px" />
@@ -146,7 +150,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                 <img src={pic15} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
-                <img src={pic16} className="img-fluid" width={100} height="150px" />
+                <img src={pic16} className="img-fluid" width="100px" height="150px" />
               </div>
               <div className="col-lg-3 img-box">
                 <img src={pic17} className="img-fluid" width="100px" height="150px" />
@@ -155,20 +159,21 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                 <img src={pic18} className="img-fluid" width="100px" height="150px" />
               </div>
             </div>
-            <div className="bottom-heading">
-              <b>SIGN UP FOR OX UPDATES</b><br />
-              <small>Be the first to receive early access to our latest collections, exclusive events and news.</small>
-            <Form>
-            <Form.Group controlId="formBasicEmail">
-             <Form.Control className="typho" type="email" placeholder="Enter your email address" />
-            </Form.Group>
-            <Button className="button-form" type="submit">
-            SIGN UP
-           </Button>
-             </Form>
-             <p className="foot-para">By subscribing, you accept that you like to hear about products, services, events, sales and marketing from OX Premium<br/> (including personalised online content and advertising through OX Premium website, social media platforms or our online<br/> partners). For more details, please read our Privacy Policy.</p>  
-            </div>
+              {/* <div className="bottom-heading">
+                <b>SIGN UP FOR OX UPDATES</b><br />
+                <small>Be the first to receive early access to our latest collections, exclusive events and news.</small>
+              <Form>
+              <Form.Group controlId="formBasicEmail">
+              <Form.Control className="typho" type="email" placeholder="Enter your email address" />
+              </Form.Group>
+              <Button className="button-form" type="submit">
+              SIGN UP
+            </Button>
+              </Form>
+              <p className="foot-para">By subscribing, you accept that you like to hear about products, services, events, sales and marketing from OX Premium<br/> (including personalised online content and advertising through OX Premium website, social media platforms or our online<br/> partners). For more details, please read our Privacy Policy.</p>  
+              </div> */}
           </div>
+          
         </div>
       );
     }

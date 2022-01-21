@@ -28,9 +28,9 @@ const Footer = () => <footer className="page-footer font-small blue pat">
                 </ul>
             </div>
 
-            <div className="col-lg-3 mb-md-0 mb-3">
+            {/* <div className="col-lg-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">TRAINING AND CONSULTANCIES</h5>      
-            </div>
+            </div> */}
             <div className="col-lg-4 mb-md-0 mb-3">
             <h5 className="text-uppercase">PROCUREMENT SERVICES</h5>
                 <ul className="list-unstyled">

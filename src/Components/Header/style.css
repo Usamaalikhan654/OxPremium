@@ -72,15 +72,33 @@ a {
 }
 
 @media (min-width: 769px) {
+  .left-slider .slick-slider {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    left: 0;
+  }
 
-.left-slider .slick-slider {
-  position: absolute;
-  bottom: 25px;
-  right: 0;
-  left: 0;
+  .col-lg-6.page-text {
+    position: relative;
+  }
 }
 
-.col-lg-6.page-text {
-  position: relative;
+.coloring {
+  background-color: none;
 }
+
+.colored {
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 16px;
+  margin: 6px;
+}
+
+.colored a {
+  color: #000000 !important;
 }

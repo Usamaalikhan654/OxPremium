@@ -34,12 +34,16 @@
   right: 5px;
 }
 
-.col-lg-6.page-image {
-  pointer-events: none;
-}
-
 .head1 {
   margin-top: 17rem;
+}
+
+.button-content {
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  color: #4a4a4a;
 }
 
 .Bianer {
@@ -78,7 +82,7 @@
 }
 
 .Bianer {
-  top: 38%;
+  top: 46%;
 }
 
 .Bianer2 {
@@ -115,4 +119,23 @@
 
 .bg {
   padding-top: 8%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.view-all-css {
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  line-height: 34px;
+  color: #707070 !important;
+  padding: 0 5px;
+  border-bottom: 1px solid #707070;
 }

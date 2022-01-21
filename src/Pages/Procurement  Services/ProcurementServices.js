@@ -14,16 +14,17 @@ const ProcurementServices = () => {
     <Header/>
     <Jumbotron fluid className="header2">
   <Container className="text-center">
-    <h1 className="head-1">PRODUCTS AND SERVICES</h1>
+    <h1 className="head-1">OUR OFFERING</h1>
     <p className="head-2">
     Manufacturing Comfort. Delivering Choice.
     </p>
     <p className="para-1">
     <NavLink to="/Product">Leather Goods And Footwear |</NavLink>
-    <NavLink to="/Train">Training and Consultancies |</NavLink>
+    {/* <NavLink to="/Train">Training and Consultancies |</NavLink> */}
     <NavLink to="/Procure"><b>Procurement Services</b></NavLink>
 </p>
   </Container>
+  
  </Jumbotron>
 </div>
      <Procurement/>

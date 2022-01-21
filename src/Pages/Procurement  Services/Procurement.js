@@ -7,7 +7,7 @@ import image1 from "../../Assets/Sanitizer.png"
 import image2 from "../../Assets/Bag.png"
 import image3 from "../../Assets/Lock.png"
 import image4 from "../../Assets/Mask.png"
-
+import { Link } from "react-router-dom";
 
 export default class Services extends React.Component {
     constructor(props) {
@@ -108,6 +108,11 @@ export default class Services extends React.Component {
 
                       </Slider>
               </div>
+              <div className='row p-0 m-0 position-relative'>
+                <div className='col-12 text-center'>
+                <Link to="/Procured" class="view-all-css" href="#" role="button">VIEW ALL</Link>
+                </div>
+              </div> 
             </div>
           </div>
                   </Slider>

@@ -2,7 +2,7 @@ import React from "react";
 import Info from "../Home/Info"
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header.js";
-import headerphoto from "../../Assets/header-meet.png"
+import headerphoto from "../../Assets/hero image with laptop 1.png"
 import { Container } from "react-bootstrap";
 import "./Home.css";
 

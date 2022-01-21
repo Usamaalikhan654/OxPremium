@@ -18,6 +18,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "react-bootstrap";
 import photo12 from "../../Assets/Group 1-2.png"
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default class Services extends React.Component {
   constructor(props) {
@@ -50,7 +52,7 @@ export default class Services extends React.Component {
         <div className="sub-container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>LEATHER GOODS &amp; FOOTWEAR</h3>
+              <h3>FOOTWEAR & &amp; LEATHER GOODS </h3>
               <small>Quality, Durability &amp; Finesse – Our Promise </small>
             </div>
           </div>
@@ -61,7 +63,17 @@ export default class Services extends React.Component {
                 experienced craftsmanship. Our passion for perfection symbolizes tradition and our products are a
                 seal of timeless elegance. We take complete pride in our products because we craft with love, care
                 and aesthetics.</p>
-                <span className="head1"> Footwear | Safety Shoes | Leather Goods | Brand Responsibilities</span>
+                <div className="head1 row"> 
+                  <div className="col-lg-4 button-element">
+                      <Link  to="/Consume"><Button className="button-content text-right">Consumer Shoes</Button></Link>
+                  </div>
+                  <div className="col-lg-4">
+                  <Link to="/Safety"><Button className="button-content">Safety Shoes</Button></Link>
+                 </div>
+                 <div className="col-lg-4">
+                   <Link to="/Leather"><Button className="button-content text-left">Leather Goods</Button></Link>
+                </div>
+                </div>
             </div>
             <div className="col-lg-6 page-image">
               <img src={photo} className="img-fluid pixel" width="400px" height="300px" />
@@ -73,7 +85,7 @@ export default class Services extends React.Component {
           <div className="container bg">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>FOOTWEAR</h3>
+              <h3>CONSUMER SHOES</h3>
               <small>Let Them Do the Talking </small>
             </div>
           </div>
@@ -82,9 +94,7 @@ export default class Services extends React.Component {
           <div className="row Fi-region">
             <div className="col-lg-6 page-text">
                     <div className="left-slider">
-                      <p>Ox Premium Company is particularly proud of its timeless shoe collection, designed and available in
-                        all types of leather and texture including, milled grain, nubuck, suede, patent and others – crafted
-                        in classic as well as boho styles poised to win gazes.</p>
+                      <p>We offer all types of shoes  both in leather material such as milled grain, nubuck, suede and others materials like flyknit and canvas. We are aligned with largest shoe manufacturers in Pakistan and can supply wide variety of shoes in vast quantities.</p>
                       <Slider
                         asNavFor={this.state.nav1}
                         ref={slider => (this.slider2 = slider)}
@@ -140,11 +150,17 @@ export default class Services extends React.Component {
                         <div>
                           <img src={photo12} className="img-fluid" />
                         </div>
-
+                        
                       </Slider>
-              </div>
+              </div>   
+              <div className='row p-0 m-0 position-relative'>
+                <div className='col-12 text-center'>
+                <Link to="/Consume" class="view-all-css" href="#" role="button">VIEW ALL</Link>
+                </div>
+              </div> 
             </div>
           </div>
+         
                   </Slider>
 
           <div className="main-heading row">
@@ -158,9 +174,7 @@ export default class Services extends React.Component {
           <div className="row Fi-region">
             <div className="col-lg-6 page-text">
                     <div className="left-slider">
-                      <p>Ox Premium Company is particularly proud of its timeless shoe collection, designed and available in
-                        all types of leather and texture including, milled grain, nubuck, suede, patent and others – crafted
-                        in classic as well as boho styles poised to win gazes.</p>
+                      <p>Our Safety Shoes collection is meant to carry your weight and keep you safe in all environments and under all conditions. They are made suitable for HSE requirement for industries like Power Generation, Construction, Manufacturing, Oil & Gas and Outdoor works. We take special pride in providing the utmost quality combined with meticulous craft.</p>
                       <Slider
                         asNavFor={this.state.nav3}
                         ref={slider => (this.slider4 = slider)}
@@ -219,12 +233,17 @@ export default class Services extends React.Component {
 
                       </Slider>
               </div>
+              <div className='row p-0 m-0 position-relative'>
+                <div className='col-12 text-center'>
+                <Link to="/Safety" class="view-all-css" href="#" role="button">VIEW ALL</Link>
+                </div>
+              </div> 
             </div>
           </div>
                   </Slider>
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>LEATHER ACCESSORIES</h3>
+              <h3>LEATHER GOODS</h3>
               <small>Setting Your Style Priorities</small>
             </div>
           </div>
@@ -293,10 +312,15 @@ export default class Services extends React.Component {
 
                       </Slider>
               </div>
+              <div className='row p-0 m-0 position-relative'>
+                <div className='col-12 text-center'>
+                <Link to="/Leather" class="view-all-css" href="#" role="button">VIEW ALL</Link>
+                </div>
+              </div> 
             </div>
           </div>
                   </Slider>
-          <div className="main-heading row">
+          {/* <div className="main-heading row">
             <div className="col-lg-6 text-center">
               <h3>BRAND RESPONSIBILITY</h3>
               <small>Timeless Fashion for Sustainable Futures </small>
@@ -315,7 +339,7 @@ export default class Services extends React.Component {
             <div className="col-lg-6 page-image">
               <img src={photo11} className="img-fluid" width="400px" height="300px" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
         <div class="Bianer">
@@ -323,9 +347,9 @@ export default class Services extends React.Component {
         </div>
        
       
-        <div class="Bianer2">
+        {/* <div class="Bianer2">
             <small>LEATHER GOODS AND FOOTWEAR</small>
-        </div>
+        </div> */}
  </div>
       </div>
     )

@@ -1,0 +1,158 @@
+.header-pic-3 {
+  background-image: url("../../Assets/contact-banner.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 20% !important;
+}
+
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content.container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h1 {
+  line-height: 35px;
+  font-size: 30px;
+}
+.text-color {
+  color: #c6ce3a;
+}
+hr.space.s {
+  height: 20px;
+  border: none !important;
+  clear: both;
+  margin: 0;
+}
+.fa-ul.inline {
+  margin: 0;
+}
+.svg-inline--fa {
+  margin-right: 15px;
+}
+.form-control {
+  border: none;
+  border-radius: 0;
+}
+
+.btn.btn-outline-success {
+  background: #000000;
+  width: 252px;
+  height: 59px;
+  border: rgb(38, 164, 176);
+  color: #fff;
+  border-radius: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.card-body {
+  background-color: #e1e1e1;
+}
+
+.h-100.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-title {
+  white-space: nowrap;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  color: #838383;
+  min-height: 66px;
+}
+
+.cont {
+  background-color: #e1e1e1;
+}
+
+.card {
+  background-color: #e1e1e1;
+}
+
+textarea.form-control {
+  width: 469px;
+  height: 204px;
+  resize: none;
+}
+
+.form-group {
+  border-bottom: none;
+}
+
+.coloring.form-control {
+  background-color: white !important;
+}
+
+.fa-ul.inline {
+  margin: 0;
+}
+
+.set {
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #484848 !important;
+}
+
+.setting-para {
+  margin-top: 27%;
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.set1 {
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #484848 !important;
+}
+
+.set2 {
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #484848 !important;
+}
+
+.topic {
+  padding: 13%;
+}

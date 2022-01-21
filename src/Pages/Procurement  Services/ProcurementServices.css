@@ -1,34 +1,33 @@
 .header2 {
-    background-image: url("../../Assets/Procurementbanner.png");
-    background-size: cover;
-    background-position: center center;
-    padding: 20% !important;
+  background-image: url("../../Assets/procure_header.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 20% !important;
 }
 
 .head-2 {
-    color: white;
-    font-family: Carmen Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
+  color: white;
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
 }
 
 .head-1 {
-    color: white;
-    font-family: Carmen Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 50px;
-    text-align: center;
+  color: white;
+  font-family: Carmen Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
 }
 
 @media (max-width: 480px) {
-    .header2 {
-
-        padding: 2rem 1rem !important;
-        background-position: center;
-        }
+  .header2 {
+    padding: 2rem 1rem !important;
+    background-position: center;
+  }
 }
