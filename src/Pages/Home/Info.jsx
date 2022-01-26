@@ -2,31 +2,49 @@ import React from 'react';
 import "./Info.css"
 import pic1 from "../../Assets/001.jpg"
 import pic2 from "../../Assets/002.jpg"
-import pic3 from "../../Assets/surface1.png"
-import pic4 from "../../Assets/Engro_Corporation 1.png"
-import pic5 from "../../Assets/440px-Engro_Fertilizers_logo 1.png"
-import pic6 from "../../Assets/white-logo-01 1.png"
-import pic7 from "../../Assets/Group 89.png"
-import pic8 from "../../Assets/PROFILE NEW-34 1.png"
-import pic9 from "../../Assets/PROFILE NEW-35 1.png"
+import pic3 from "../../Assets/ke logo-03 3.png"
+import pic4 from "../../Assets/engro logo-01 3.png"
+import pic5 from "../../Assets/suzuki-logo-1-1 5.png"
+import pic6 from "../../Assets/National-Refinery 6.png"
+import pic7 from "../../Assets/PROFILE NEW-33 5.png"
+import pic8 from "../../Assets/159-logo 4.png"
+import pic9 from "../../Assets/PROFILE NEW-38 5.png"
 import pic10 from "../../Assets/content_1564482812-500sharp 1.png"
-import {Form, Button} from "react-bootstrap"
+import {Form, Button, Carousel, CarouselItem} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import pic11 from "../../Assets/National-Refinery 2.png"
-import pic12 from "../../Assets/suzuki-logo-1-1 1.png"
-import pic13 from "../../Assets/P_and_G_Procter_and_Gamble_logo 1.png"
-import pic14 from "../../Assets/PROFILE NEW-33 1.png"
-import pic15 from "../../Assets/1280px-Logo_Alcon 1.png"
-import pic16 from "../../Assets/PROFILE NEW-38 1.png"
-import pic17 from "../../Assets/PROFILE NEW-36 1.png"
-import pic18 from "../../Assets/PROFILE NEW-37 1.png"
+import pic11 from "../../Assets/P_and_G_Procter_and_Gamble_logo 5.png"
+import pic12 from "../../Assets/1280px-Logo_Alcon 5.png"
+import pic13 from "../../Assets/PROFILE NEW-36 5.png"
+import pic14 from "../../Assets/ox profile on 6 inch-17 12.png"
+import pic15 from "../../Assets/Group 89.png"
+import pic16 from "../../Assets/PROFILE NEW-34 1.png"
+import pic17 from "../../Assets/PROFILE NEW-35 5.png"
+import pic18 from "../../Assets/Rectangle.png"
 import pic19 from "../../Assets/apk.png"
 import pic20 from "../../Assets/ivan-zhu.png"
 import pic21 from "../../Assets/grid 2.png"
 import {Link} from 'react-router-dom';
+import Slider from "react-slick";
+import pic22 from "../../Assets/khazanay.png";
+import pic23 from "../../Assets/pay.png";
+import pic24 from "../../Assets/suc.png";
+import pic25 from "../../Assets/continent.png";
+import pic26 from "../../Assets/Group 10919.png";
+import pic27 from "../../Assets/se.png";
+import pic28 from "../../Assets/Group 156.png";
+import pic29 from "../../Assets/Group 157.png";
+import pic30 from "../../Assets/Book.png";
+import pic31 from "../../Assets/ox profile on 6 inch-17 10.png";
+import pic32 from "../../Assets/Analytics.png";
+import pic33 from "../../Assets/shoes-club.png";
+import pic34 from "../../Assets/Aladin.png";
+import pic35 from "../../Assets/Bizintel Company Profile-19 2.png";
+import pic36 from "../../Assets/LOGOS-10 1.png";
+import pic37 from "../../Assets/PROFILE NEW-37 3.png";
 
-function Info() {
+export default class Info extends React.Component {
 
+      render () {
       return (
         
         <div>      
@@ -103,6 +121,9 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
               </div>
             </div>
             <hr className="hr-line" />
+            <Carousel>
+            <CarouselItem>
+            <div>
             <div className="row">
               <div className="col-lg-3 img-box">
                 <img src={pic3} className="img-fluid" width="181px" height="181px" />
@@ -159,6 +180,71 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                 <img src={pic18} className="img-fluid" width="100px" height="150px" />
               </div>
             </div>
+            </div>
+            </CarouselItem>
+
+            <CarouselItem>
+            <div>
+            <div className="row">
+              <div className="col-lg-3 img-box">
+                <img src={pic22} className="img-fluid" width="181px" height="181px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic23} className="img-fluid" width="181px" height="181px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic24} className="img-fluid" width="181px" height="181px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic25} className="img-fluid" width="181px" height="181px" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-3 img-box">
+                <img src={pic26} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic27} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic28} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic29} className="img-fluid" width="100px" height="150px" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-3 img-box">
+                <img src={pic30} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic31} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic32} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic33} className="img-fluid" width="100px" height="150px" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-3 img-box">
+                <img src={pic34} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic35} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic36} className="img-fluid" width="100px" height="150px" />
+              </div>
+              <div className="col-lg-3 img-box">
+                <img src={pic37} className="img-fluid" width="100px" height="150px" />
+              </div>
+            </div>
+            </div>
+            </CarouselItem>
+            </Carousel>
+
               {/* <div className="bottom-heading">
                 <b>SIGN UP FOR OX UPDATES</b><br />
                 <small>Be the first to receive early access to our latest collections, exclusive events and news.</small>
@@ -177,7 +263,5 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
         </div>
       );
     }
+    }
 
-    
-
-export default Info;

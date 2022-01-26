@@ -1,11 +1,12 @@
 import React, { Component,useState } from "react";
 import "./style.css";
-import Logo from "../../Assets/OX\ Logo-04\ 1.png";
+import Logo from "../../Assets/logo 1.png";
 import { Navbar,Nav,Form,FormControl,Button, NavDropdown,Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Searchicon from "../../Assets/Group 80.png";
 import { NavLink } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function Header () {
@@ -26,9 +27,9 @@ const hideDropdown = e => {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="m-auto">
       <Nav.Link>
-          <HashLink to="/#about" >ABOUT US</HashLink>
+          <HashLink smooth to="/#about" >ABOUT US</HashLink>
       </Nav.Link>
-      <NavDropdown
+       {/* <NavDropdown
           id="nav-dropdown-dark-example"
           title="OUR OFFERING"
           menuVariant="dark"
@@ -39,15 +40,32 @@ const hideDropdown = e => {
           <NavDropdown.Item className="colored"><NavLink to="/Product">Footwear & Leather Goods</NavLink></NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item className="colored"><NavLink to="/Procure">Procurement Services</NavLink></NavDropdown.Item>
-        </NavDropdown>
-      <Nav.Link><HashLink to="/#clients">OUR CLIENTS & PARTNERS</HashLink></Nav.Link>
+        </NavDropdown> */}
+        {/* <Nav.Link href="#link"><HashLink smooth to="/#offering" className="hover-dropdown">OUR OFFERING</HashLink><div class="dropdown-wrap">
+          <ul className="d-item-list">
+            <li className="d-item"><NavLink to="/Product">Footwear & Leather Goods</NavLink></li>
+            <li className="d-item"><NavLink to="/Procure">Procurement Services</NavLink></li>
+          </ul>
+        </div></Nav.Link> */}
+
+        <Nav.Link>
+          <div class="dropdown">
+          <HashLink smooth to="/#offering">OUR OFFERING</HashLink>
+          <FontAwesomeIcon  icon="fa-solid fa-caret-down" />
+           <div class="dropdown-content">
+              <NavLink className="border-set" to="/Product">Footwear & Leather Goods</NavLink>
+              <NavLink to="/Procure">Procurement Services</NavLink>
+          </div>
+        </div>
+        </Nav.Link>
+      <Nav.Link><HashLink smooth to="/#clients">OUR CLIENTS & PARTNERS</HashLink></Nav.Link>
       <Nav.Link>
-      <NavLink to="/Contact">CONTACT US</NavLink>
+      <NavLink smooth to="/Contact">CONTACT US</NavLink>
       </Nav.Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search our entire store" className="mr-sm-2" />
-      <span className="img"><img src={Searchicon}/></span>
+      <span className="img"><img className="icon-set" src={Searchicon}/></span>
     </Form>
   </Navbar.Collapse>
   </Container>
