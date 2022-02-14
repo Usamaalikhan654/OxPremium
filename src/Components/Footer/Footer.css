@@ -223,6 +223,7 @@
   background-color: transparent;
   color: #ffffff;
   padding: 9px;
+  width: 100%;
 }
 
 .input-group-btn {
@@ -230,7 +231,7 @@
   font-size: 0;
   white-space: nowrap;
   background: #ffffff;
-  margin-left: 228px;
+  margin-left: 157px;
   bottom: 42px;
 }
 

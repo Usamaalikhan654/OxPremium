@@ -9,12 +9,14 @@ import Safety from "./Pages/Safety shoes/Safety.js";
 import Leather from "./Pages/Leather goods/Leather.js";
 import Procure from "./Pages/Procure Info/Procure.js";
 import  Contact from "./Pages/Contact us/Contact.js";
+import ScrollToTop from 'react-router-scroll-top';
 
 export default function App() {
   return (
     <HashRouter>
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <ScrollToTop>
+        <Route  exact path="/" component={Home}/>  
         <Route exact path="/Product" component={Product}/>
         <Route exact path="/Train" component={Traindisplay}/>
         <Route exact path="/Procure" component={ProcurementServices}/>
@@ -23,6 +25,7 @@ export default function App() {
         <Route exact path="/Leather" component={Leather}/>
         <Route exact path="/Procured" component={Procure}/>
         <Route exact path="/Contact" component={Contact}/>
+        </ScrollToTop>
       </Switch>
     </HashRouter>
   );

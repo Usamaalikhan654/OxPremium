@@ -6,7 +6,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 import "./Product.css"
 import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import { Link , NavLink } from "react-router-dom";
-
+import { withRouter } from "react-router-dom";
 const Product = () => {
   return (
   <div>

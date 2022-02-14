@@ -4,7 +4,8 @@ import "./Footer.css";
 import Facebook from "../../Assets/face.png"
 import Twitter from "../../Assets/Vector (1).png"
 import Insta from "../../Assets/inst.png"
-import Link from "../../Assets/link1.png"
+import Link1 from "../../Assets/link1.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => <footer className="page-footer font-small blue pat">
     <div className="container text-center text-md-left">
@@ -47,16 +48,16 @@ const Footer = () => <footer className="page-footer font-small blue pat">
         </div> */}
             <div class="row">
                 <div class="col-sm-2 mt-md-0 mt-3 text-center">
-                <img src={Logo1}/>
+                <Link to="/"><img src={Logo1}/></Link>
                 </div>
                 <div class="col-sm-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">LEATHER GOODS AND FOOTWEAR</h5>
                 <ul className="list-unstyled">
-                    <li>Footwear</li>
+                    <Link to="/Product"><li>Footwear</li></Link>
                     <br/>
-                    <li>Safety Shoes</li>
+                    <Link to="/Safety"><li>Safety Shoes</li></Link>
                     <br/>
-                    <li>Leather Goods</li>
+                    <Link to="/Leather"><li>Leather Goods</li></Link>
                     <br/>
                     <li>Brand Responsibility</li>
                 </ul>
@@ -94,7 +95,7 @@ const Footer = () => <footer className="page-footer font-small blue pat">
          <div className="col-lg-12 text-center">
             <img className="img1"  src={Facebook}/>
             <img  className="img1" src={Insta}/>
-            <img className="img1" src={Link}/>
+            <img className="img1" src={Link1}/>
            </div> 
         </div>
 
@@ -105,8 +106,8 @@ const Footer = () => <footer className="page-footer font-small blue pat">
   <div className="col-lg-12 footer-bottom-border"></div>
          <div className="col-lg-6 text-center">
               <div className="foot-head">
-               <span>Privacy Policy</span>
-               <span>TERMS & CONDITIONS</span>
+               {/* <span>Privacy Policy</span>
+               <span>TERMS & CONDITIONS</span> */}
               </div> 
            </div> 
 

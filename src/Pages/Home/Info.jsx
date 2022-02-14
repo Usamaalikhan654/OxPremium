@@ -20,7 +20,7 @@ import pic15 from "../../Assets/Group 89.png"
 import pic16 from "../../Assets/PROFILE NEW-34 1.png"
 import pic17 from "../../Assets/PROFILE NEW-35 5.png"
 import pic18 from "../../Assets/Rectangle.png"
-import pic19 from "../../Assets/apk.png"
+import pic19 from "../../Assets/black-image.png"
 import pic20 from "../../Assets/ivan-zhu.png"
 import pic21 from "../../Assets/grid 2.png"
 import {Link} from 'react-router-dom';
@@ -41,13 +41,17 @@ import pic34 from "../../Assets/Aladin.png";
 import pic35 from "../../Assets/Bizintel Company Profile-19 2.png";
 import pic36 from "../../Assets/LOGOS-10 1.png";
 import pic37 from "../../Assets/PROFILE NEW-37 3.png";
+import { withRouter } from 'react-router-dom';
+import Scroll from '../../Components/ScrollUp/Scroll';
 
 export default class Info extends React.Component {
+
 
       render () {
       return (
         
-        <div>      
+        <div>    
+      
           <div className="container bg">
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
@@ -97,7 +101,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
                   <div class="col-lg-6 text-white">
                     <p>Footwear & Leather Goods</p>
                     <Link to="/Product">
-                    <Button className="grid-button">View</Button>
+                    <Button  className="grid-button">View</Button>
                     </Link>
                   </div>
                 </div>
@@ -258,6 +262,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
               </Form>
               <p className="foot-para">By subscribing, you accept that you like to hear about products, services, events, sales and marketing from OX Premium<br/> (including personalised online content and advertising through OX Premium website, social media platforms or our online<br/> partners). For more details, please read our Privacy Policy.</p>  
               </div> */}
+             
           </div>
           
         </div>
