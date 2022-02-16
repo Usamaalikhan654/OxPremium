@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Services.css"
-import photo from "../../Assets/web opt 2-26.jpg"
+import photo from "../../Assets/Group 10955.png"
 import photo1 from "../../Assets/slide1.png";
 import photo2 from "../../Assets/Group 2.png"
 import photo3 from "../../Assets/Group 3.png"
@@ -76,7 +76,7 @@ export default class Services extends React.Component {
                 </div>
             </div>
             <div className="col-lg-6 page-image">
-              <img src={photo} className="img-fluid pixel" width="400px" height="300px" />
+              <img src={photo} className="img-fluid pixel"/>
             </div>
           </div>
           </div>

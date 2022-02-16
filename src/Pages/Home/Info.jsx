@@ -75,7 +75,7 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
               </div>
               <div className="col-lg-6 page-image">
               <div className="background-img">
-                <img src={pic19} className="img-fluid" width="400px" height="300px" />
+                <img src={pic19} className="img-fluid"/>
               </div>
               </div>
             </div>

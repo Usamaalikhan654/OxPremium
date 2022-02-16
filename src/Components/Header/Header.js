@@ -50,7 +50,7 @@ const hideDropdown = e => {
 
         <Nav.Link>
           <div class="dropdown">
-          <HashLink smooth to="/#offering">OUR OFFERING</HashLink>
+          <HashLink class="dropbtn" smooth to="/#offering">OUR OFFERING</HashLink>
           <FontAwesomeIcon icon="fa-solid fa-caret-down" />
            <div class="dropdown-content">
               <NavLink className="border-set" to="/Product">Footwear & Leather Goods</NavLink>
