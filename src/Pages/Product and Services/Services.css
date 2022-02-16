@@ -145,3 +145,11 @@
   background-color: black !important;
   border: black !important;
 }
+
+.sub-main-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}

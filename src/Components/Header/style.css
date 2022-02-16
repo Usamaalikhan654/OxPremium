@@ -141,6 +141,7 @@ a {
   z-index: 1;
   top: 22px;
   height: 100px;
+  transition: all 0.5s ease-in;
 }
 
 .dropdown-content a {

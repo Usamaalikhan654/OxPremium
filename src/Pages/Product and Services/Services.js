@@ -52,7 +52,7 @@ export default class Services extends React.Component {
         <div className="sub-container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>FOOTWEAR & &amp; LEATHER GOODS </h3>
+              <h3 className='sub-main-heading'>FOOTWEAR & &amp; LEATHER GOODS </h3>
               <small>Quality, Durability &amp; Finesse – Our Promise </small>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default class Services extends React.Component {
           <div className="container bg">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>CONSUMER SHOES</h3>
+              <h3 className='sub-main-heading'>CONSUMER SHOES</h3>
               <small>Let Them Do the Talking </small>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default class Services extends React.Component {
 
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>SAFETY SHOES</h3>
+              <h3 className='sub-main-heading'>SAFETY SHOES</h3>
               <small>Let Them Do the Talking</small>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default class Services extends React.Component {
                   </Slider>
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3>LEATHER GOODS</h3>
+              <h3 className='sub-main-heading'>LEATHER GOODS</h3>
               <small>Setting Your Style Priorities</small>
             </div>
           </div>

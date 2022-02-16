@@ -248,11 +248,11 @@
 }
 
 .carousel-control-prev {
-  left: -100px !important;
+  left: -50px !important;
 }
 
 .carousel-control-next {
-  right: -100px !important;
+  right: -50px !important;
 }
 
 .carousel {
@@ -267,4 +267,13 @@
   color: black !important;
   background-color: #fff !important;
   border-color: white !important;
+}
+
+.container {
+  max-width: 1220px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
 }
