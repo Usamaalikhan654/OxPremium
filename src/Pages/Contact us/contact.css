@@ -138,8 +138,13 @@ textarea.form-control {
   font-size: 18px;
   line-height: 25px;
   /* identical to box height */
-
+  width: 340px;
+  padding-bottom: 30px;
   color: #484848 !important;
+}
+
+.li-set {
+  padding-bottom: 50px;
 }
 
 .set2 {
@@ -154,5 +159,5 @@ textarea.form-control {
 }
 
 .topic {
-  padding: 13%;
+  padding: 13% 10%;
 }

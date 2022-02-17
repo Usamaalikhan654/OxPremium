@@ -42,12 +42,12 @@ class Contact extends React.Component {
             <FontAwesomeIcon icon="fa-light fa-location-dot" />
             <span>Mehdi Tower, Suite 201-202, SMCHS, Main Shahrah-e-Faisal, Karachi</span>
             </li>
-            <li>
-                <FontAwesomeIcon icon={faEnvelope} color="#c6ce3a" />
+            <li className='li-set'>
+                <FontAwesomeIcon icon={faEnvelope} color="black" />{" "}
                 <a className='set' href="#">Info@theoxpremiumcompany.com</a>
               </li>
               <li>
-                <FontAwesomeIcon icon={faPhone} rotation={90} color="#c6ce3a" />{" "}
+                <FontAwesomeIcon icon={faPhone} rotation={90} color="black" />{" "}
                 <span className='set2'>+92 213 4322238-39</span>
               </li>
             </ul>
