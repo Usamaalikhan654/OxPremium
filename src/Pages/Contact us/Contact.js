@@ -7,6 +7,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ContactForm from './ContactForm.jsx';
 import Footer from '../../Components/Footer/Footer.js';
+import location from "../../Assets/location-dot.png";
 
 class Contact extends React.Component {
     render () {
@@ -39,8 +40,8 @@ class Contact extends React.Component {
           <div className="col-lg-6 mt-5 topic">
             <ul class="fa-ul inline">
             <li className='set1'>
-            <FontAwesomeIcon icon="fa-light fa-location-dot" />
-            <span>Mehdi Tower, Suite 201-202, SMCHS, Main Shahrah-e-Faisal, Karachi</span>
+            <img src={location}/>
+            <span className="li-item">Mehdi Tower, Suite 201-202, SMCHS, Main Shahrah-e-Faisal, Karachi</span>
             </li>
             <li className='li-set'>
                 <FontAwesomeIcon icon={faEnvelope} color="black" />{" "}
