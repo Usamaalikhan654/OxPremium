@@ -1,5 +1,5 @@
 .align {
-  background-color: #000;
+  background-color: #bababa;
   /*! margin-left:26%; */ /*! padding:10%; */ /*! margin-top:14px */
   padding: 28px 30px;
 }
@@ -57,9 +57,9 @@
 }
 
 .img-box:hover {
-  -webkit-transform: scale(1.5);
   filter: grayscale(0%) !important;
-  -webkit-transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.4s ease-in-out;
 }
 
 .img-box {
@@ -195,7 +195,8 @@
 }
 
 .align .grid-button {
-  border: 1px solid #ffffff;
+  border: 1px solid black;
+  border-radius: 1px;
   box-sizing: border-box;
   font-family: Carmen Sans;
   font-style: normal;
@@ -203,9 +204,10 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #ffffff;
+  color: black;
   background: transparent;
   padding: 10px 38px;
+  width: 74%;
 }
 
 .align .row {
@@ -244,11 +246,11 @@
 }
 
 .carousel-control-prev {
-  left: -50px !important;
+  left: 38px !important;
 }
 
 .carousel-control-next {
-  right: -50px !important;
+  right: 5px !important;
 }
 
 .carousel {
@@ -260,9 +262,9 @@
 }
 
 .grid-button:hover {
-  color: black !important;
-  background-color: #fff !important;
-  border-color: white !important;
+  color: white !important;
+  background-color: black !important;
+  border-color: black !important;
 }
 
 .container {
@@ -272,4 +274,17 @@
 .carousel-control-next,
 .carousel-control-prev {
   width: 5% !important;
+}
+
+.carousel-inner {
+  width: 80% !important;
+  margin: auto !important;
+}
+
+.fonts {
+  font-family: Futura Md Bt;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23.97px;
 }

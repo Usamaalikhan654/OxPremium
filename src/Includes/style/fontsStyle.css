@@ -7,8 +7,8 @@
 
 @font-face {
   font-family: "Carmen sans";
-  src:  url('../../Includes/Fonts/CarmenSans-Regular.ttf') format('truetype'),
-        url('../../Includes/Fonts/Carmen-Sans-Regular.otf') format('otf'),
+  src: url("../../Includes/Fonts/CarmenSans-Regular.ttf") format("truetype"),
+    url("../../Includes/Fonts/Carmen-Sans-Regular.otf") format("otf");
 }
 
 @font-face {
@@ -17,6 +17,19 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Futura";
+  src: url("../../Includes/Fonts/futura/Futura\ Bold\ font.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Md Bt";
+  src: url("../../Includes/Fonts/futura/futura\ medium\ bt.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
 /* // @font-face {
 //   font-family: "Oswald Regular";
 //   src: url("../../Includes/Fonts/Oswald-Regular.ttf");
@@ -40,9 +53,11 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: "Futura";
+  font-weight: 700;
   font-style: normal;
+  font-size: 36px;
+  line-height: 35.81px;
 }
 
 p,
@@ -71,18 +86,16 @@ p {
 }
 
 small {
-  font-family: "Carmen Sans";
+  font-family: "Futura Md Bt";
   font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.97px;
   text-align: center;
- 
 }
 
 span {
-font-family: "Carmen Sans";
-font-style: normal;
-font-weight: normal;
+  font-family: "Carmen Sans";
+  font-style: normal;
+  font-weight: normal;
 }
-

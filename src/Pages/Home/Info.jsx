@@ -42,7 +42,7 @@ import pic35 from "../../Assets/Bizintel Company Profile-19 2.png";
 import pic36 from "../../Assets/LOGOS-10 1.png";
 import pic37 from "../../Assets/PROFILE NEW-37 3.png";
 import { withRouter } from 'react-router-dom';
-import Scroll from '../../Components/ScrollUp/Scroll';
+
 
 export default class Info extends React.Component {
 
@@ -55,7 +55,7 @@ export default class Info extends React.Component {
           <div className="container bg">
             <div className="main-heading row">
               <div className="col-lg-6 text-center">
-                <h3 id='about'>About Us</h3>
+                <h3 id='about'>ABOUT US</h3>
                 <small>Striving for Lifestyle &amp; Safety </small>
               </div>
             </div>
@@ -98,16 +98,16 @@ OX Premium Company is a part of Rehmani Group of companies. It is a multidiscipl
               <div class="align">
                 <div class="row">
                   <div class="col-lg-6 text-white"><img src={pic20} className="img-fluid"/> </div>
-                  <div class="col-lg-6 text-white">
-                    <p>Footwear & Leather Goods</p>
+                  <div class="col-lg-6">
+                    <p className="fonts">Footwear & Leather Goods</p>
                     <Link to="/Product">
                     <Button  className="grid-button">View</Button>
                     </Link>
                   </div>
                 </div>
                 <div className="row">
-                  <div class="col-lg-6 text-white"> 
-                  <p>Procurement Services</p>
+                  <div class="col-lg-6"> 
+                  <p className="fonts">Procurement Services</p>
                   <Link to="/Procure">
                   <Button  className="grid-button">View</Button>
                   </Link>

@@ -7,7 +7,7 @@ import Searchicon from "../../Assets/Group 80.png";
 import { NavLink } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import SearchPage from "../Search/SearchPage";
 
 function Header () {
  
@@ -64,8 +64,9 @@ const hideDropdown = e => {
       </Nav.Link>
     </Nav>
     <Form inline>
-      <FormControl type="text" placeholder="Search our entire store" className="mr-sm-2" />
-      <span className="img"><img className="icon-set" src={Searchicon}/></span>
+      {/* <FormControl type="text" placeholder="Search our entire store" className="mr-sm-2" />
+      <span className="img"><img className="icon-set" src={Searchicon}/></span> */}
+      <SearchPage/>
     </Form>
   </Navbar.Collapse>
   </Container>

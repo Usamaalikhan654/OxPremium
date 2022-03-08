@@ -2,11 +2,18 @@ import React from "react";
 import "./Procurement.css"
 import Slider from "react-slick";
 import arrownext from "../../Assets/arrow-next.png"
-import image from "../../Assets/magic.png"
-import image1 from "../../Assets/Sanitizer.png"
-import image2 from "../../Assets/Bag.png"
-import image3 from "../../Assets/Lock.png"
-import image4 from "../../Assets/Mask.png"
+import Smimage from "../../Assets/p-01.png"
+import Lgimage from "../../Assets/p-21.png"
+import Smimage1 from "../../Assets/p-05.png"
+import Lgimage1 from "../../Assets/p-25.png"
+import Smimage2 from "../../Assets/p-03.png"
+import Lgimage2 from "../../Assets/p-23.png"
+import Smimage3 from "../../Assets/p-06.png"
+import Lgimage3 from "../../Assets/p-26.png"
+import Smimage4 from "../../Assets/p-07.png"
+import Lgimage4 from "../../Assets/p-27.png"
+import Smimage5 from "../../Assets/p-04.png"
+import Lgimage5 from "../../Assets/p-24.png"
 import { Link } from "react-router-dom";
 
 export default class Services extends React.Component {
@@ -58,22 +65,22 @@ export default class Services extends React.Component {
                         focusOnSelect={true}
                       >
                        <div>
-                          <img src={image}  className="img-fluid" width="210px" />
+                          <img src={Smimage}  className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={image1}  className="img-fluid" width="210px" />
+                          <img src={Smimage1}  className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={image2} className="img-fluid" width="210px" />
+                          <img src={Smimage2} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={image3} className="img-fluid" width="210px" />
+                          <img src={Smimage3} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={image1} className="img-fluid" width="210px" />
+                          <img src={Smimage4} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={image} className="img-fluid" width="210px" />
+                          <img src={Smimage5} className="img-fluid" width="210px" />
                         </div>
                       </Slider>
                       
@@ -88,22 +95,22 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider1 = slider)}
                       >
                         <div>
-                          <img src={image4} className="img-fluid" />
+                          <img src={Lgimage3} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={image4}  className="img-fluid" />
+                          <img src={Lgimage4 }  className="img-fluid" />
                         </div>
                         <div>
-                          <img src={image4}  className="img-fluid" />
+                          <img src={Lgimage5}  className="img-fluid" />
                         </div>
                         <div>
-                          <img src={image4}  className="img-fluid" />
+                          <img src={Lgimage}  className="img-fluid" />
                         </div>
                         <div>
-                          <img src={image4} className="img-fluid" />
+                          <img src={Lgimage1} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={image4}  className="img-fluid" />
+                          <img src={Lgimage2}  className="img-fluid" />
                         </div>
 
                       </Slider>

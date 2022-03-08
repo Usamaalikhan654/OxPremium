@@ -8,6 +8,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ContactForm from './ContactForm.jsx';
 import Footer from '../../Components/Footer/Footer.js';
 import location from "../../Assets/location-dot.png";
+import Mail from "../../Assets/mail.png";
+import Phone from "../../Assets/Phone.png";
+import facebook from "../../Assets/face-black.png";
+import Insta from "../../Assets/insta-black.png";
+import Link from "../../Assets/link-black.png";
 
 class Contact extends React.Component {
     render () {
@@ -38,20 +43,37 @@ class Contact extends React.Component {
             <ContactForm />
           </div>
           <div className="col-lg-6 mt-5 topic">
-            <ul class="fa-ul inline">
-            <li className='set1'>
-            <img src={location}/>
-            <span className="li-item">Mehdi Tower, Suite 201-202, SMCHS, Main Shahrah-e-Faisal, Karachi</span>
-            </li>
-            <li className='li-set'>
-                <FontAwesomeIcon icon={faEnvelope} color="black" />{" "}
+          <div className='row mb-5'>
+            <div className='col-2 d-flex justify-content-center align-items-center'>
+            <img  src={location}/>{" "}
+            </div>
+            <div className='col-10'>
+            <span className='set1'>Mehdi Tower, Suite 201-202, SMCHS, Main Shahrah-e-Faisal, Karachi</span>
+             </div>
+          </div>
+
+          <div className='row mb-5'>
+            <div className='col-2 d-flex justify-content-center align-items-center'>
+                <img    src={Mail}/>{" "}
+               
+            </div>
+            <div className='col-10'>
                 <a className='set' href="#">Info@theoxpremiumcompany.com</a>
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faPhone} rotation={90} color="black" />{" "}
+            </div>
+          </div>
+
+          <div className='row'>
+             <div className='col-2 d-flex justify-content-center align-items-center'>
+                <img  src={Phone}/>{" "}
+             </div>
+             <div className='col-10'>
                 <span className='set2'>+92 213 4322238-39</span>
-              </li>
-            </ul>
+             </div>
+          </div>
+          <hr/>
+                <a href='https://www.facebook.com/oxpremiumcompany/' target='_blank'><img style={{paddingRight: "10px"}} src={facebook}/></a>
+                <a href='https://www.instagram.com/oxfootwearco/?hl=en' target='_blank'><img style={{paddingRight: "10px"}} src={Insta}/></a>
+                <a href='https://www.linkedin.com/company/oxpremiumcompany/' target='_blank'><img src={Link}/></a> 
           </div>
         </Row>
         </Container>

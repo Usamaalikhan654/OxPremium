@@ -1,25 +1,49 @@
-import React, { Component } from 'react';
+import React, { Component,useState } from 'react';
 import "./Services.css"
 import photo from "../../Assets/Group 10955.png"
-import photo1 from "../../Assets/slide1.png";
-import photo2 from "../../Assets/Group 2.png"
-import photo3 from "../../Assets/Group 3.png"
-import photo4 from "../../Assets/Group 4.png"
-import photo5 from "../../Assets/Group 5.png"
-import photo6 from "../../Assets/jacket 1.png"
-import photo7 from "../../Assets/keychain.png"
-import photo8 from "../../Assets/b1 1.png"
-import photo9 from "../../Assets/Group 1-3.png"
-import photo10 from "../../Assets/web opt 2-27 1.png"
-import photo11 from "../../Assets/web opt 2-27 2.png"
+import Smphoto1 from "../../Assets/images-03.png";
+import Lgphoto1 from "../../Assets/images-10.png";
+import Smphoto2 from "../../Assets/images-07.png"
+import Lgphoto2 from "../../Assets/images-14.png"
+import Smphoto3 from "../../Assets/images-06.png"
+import Lgphoto3 from "../../Assets/images-13.png"
+import Smphoto4 from "../../Assets/images-04.png"
+import Lgphoto4 from "../../Assets/images-11.png"
+import Smphoto6 from "../../Assets/bag1.png"
+import Lgphoto6 from "../../Assets/images-34.png"
+import Smphoto7 from "../../Assets/images-26.png"
+import Lgphoto7 from "../../Assets/belt 1-2.png"
+import Smphoto8 from "../../Assets/b1 1.png"
+import Lgphoto8 from "../../Assets/images-30.png"
+import Smphoto10 from "../../Assets/images-05.png"
+import Smphoto11 from "../../Assets/images-18.png"
+import Lgphoto10 from "../../Assets/images-40.png"
 import arrownext from "../../Assets/arrow-next.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container } from "react-bootstrap";
-import photo12 from "../../Assets/Group 1-2.png"
+import Smphoto12 from "../../Assets/Group 1-2.png"
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Smphoto13 from "../../Assets/images-15.png"
+import Lgphoto13 from "../../Assets/images-50.png"
+import Smphoto14 from "../../Assets/images-19.png"
+import Lgphoto14 from "../../Assets/images-53.png"
+import Smphoto15 from "../../Assets/images-21.png"
+import Lgphoto15 from "../../Assets/images-55.png"
+import Lgphoto11 from "../../Assets/images-47.png"
+import Smphoto17 from "../../Assets/Hush Puppies Safety Shoes- Low Cut without laces.png"
+import Lgphoto17 from "../../Assets/images-12.png"
+import Lgphoto12 from "../../Assets/Group 1-2.png"
+import Smphoto18 from "../../Assets/images-01.png"
+import Lgphoto18 from "../../Assets/images-08.png"
+import Smphoto19 from "../../Assets/wall1.png"
+import Lgphoto19 from "../../Assets/images-35.png"
+import Smphoto20 from "../../Assets/hang-bag.png"
+import Lgphoto20 from "../../Assets/images-31.png"
+import Smphoto21 from "../../Assets/images-17.png"
+import Lgphoto21 from "../../Assets/images-43.png"
 
 export default class Services extends React.Component {
   constructor(props) {
@@ -44,7 +68,8 @@ export default class Services extends React.Component {
       nav6: this.slider6
     });
   }
-  render() {
+
+  render() {     
     return (
       <div  className="contain">
         <div className="container-bg">
@@ -52,12 +77,12 @@ export default class Services extends React.Component {
         <div className="sub-container">
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
-              <h3 className='sub-main-heading'>FOOTWEAR & &amp; LEATHER GOODS </h3>
+              <h3 className='sub-main-heading'>FOOTWEAR  &amp; LEATHER GOODS </h3>
               <small>Quality, Durability &amp; Finesse – Our Promise </small>
             </div>
           </div>
           <hr className="hr-line" />
-          <div className="row Fi-region">
+          <div id='1'  className="row Fi-region">
             <div className="col-lg-6 page-text">
               <p>We at OX Premium Company believe that quality leather products are the one which are handled by
                 experienced craftsmanship. Our passion for perfection symbolizes tradition and our products are a
@@ -91,7 +116,7 @@ export default class Services extends React.Component {
           </div>
           <hr className="hr-line" />
                   <Slider>
-          <div className="row Fi-region">
+          <div id="2" className="row Fi-region">
             <div className="col-lg-6 page-text">
                     <div className="left-slider">
                       <p>We offer all types of shoes  both in leather material such as milled grain, nubuck, suede and others materials like flyknit and canvas. We are aligned with largest shoe manufacturers in Pakistan and can supply wide variety of shoes in vast quantities.</p>
@@ -103,22 +128,22 @@ export default class Services extends React.Component {
                         focusOnSelect={true}
                       >
                        <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto12} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto11} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto10} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto13} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto14} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto15} className="img-fluid" width="210px" />
                         </div>
                       </Slider>
                       
@@ -133,22 +158,22 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider1 = slider)}
                       >
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto13} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto14} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto15} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto12} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto11} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto10} className="img-fluid" />
                         </div>
                         
                       </Slider>
@@ -166,12 +191,12 @@ export default class Services extends React.Component {
           <div className="main-heading row">
             <div className="col-lg-6 text-center">
               <h3 className='sub-main-heading'>SAFETY SHOES</h3>
-              <small>Let Them Do the Talking</small>
+              <small>Sturdy. Rigid. Lasting.</small>
             </div>
           </div>
           <hr className="hr-line" />
           <Slider>
-          <div className="row Fi-region">
+          <div id="3" className="row Fi-region">
             <div className="col-lg-6 page-text">
                     <div className="left-slider">
                       <p>Our Safety Shoes collection is meant to carry your weight and keep you safe in all environments and under all conditions. They are made suitable for HSE requirement for industries like Power Generation, Construction, Manufacturing, Oil & Gas and Outdoor works. We take special pride in providing the utmost quality combined with meticulous craft.</p>
@@ -183,22 +208,22 @@ export default class Services extends React.Component {
                         focusOnSelect={true}
                       >
                        <div>
-                          <img src={photo2} className="img-fluid" width="210px" />
+                          <img src={Smphoto2} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo3} className="img-fluid" width="210px" />
+                          <img src={Smphoto3} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo4} className="img-fluid" width="210px" />
+                          <img src={Smphoto4} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto1} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto17} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto18} className="img-fluid" width="210px" />
                         </div>
                       </Slider>
                       
@@ -213,22 +238,22 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider3 = slider)}
                       >
                         <div>
-                          <img src={photo12} className="img-fluid" />
+                          <img src={Lgphoto1} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo5} className="img-fluid" />
+                          <img src={Lgphoto17} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo5} className="img-fluid" />
+                          <img src={Lgphoto18} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo5} className="img-fluid" />
+                          <img src={Lgphoto2} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo5} className="img-fluid" />
+                          <img src={Lgphoto3} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo5} className="img-fluid" />
+                          <img src={Lgphoto4} className="img-fluid" />
                         </div>
 
                       </Slider>
@@ -249,7 +274,7 @@ export default class Services extends React.Component {
           </div>
           <hr className="hr-line" />
           <Slider>
-          <div className="row Fi-region">
+          <div id="4" className="row Fi-region">
             <div className="col-lg-6 page-text">
                     <div className="left-slider">
                       <p>Add perfect finish to your flair and don’t go unrecognized with our style statements. Ox Premium
@@ -262,22 +287,22 @@ export default class Services extends React.Component {
                         focusOnSelect={true}
                       >
                        <div>
-                          <img src={photo6} className="img-fluid" width="210px" />
+                          <img src={Smphoto6} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo7} className="img-fluid" width="210px" />
+                          <img src={Smphoto7} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo8} className="img-fluid" width="210px" />
+                          <img src={Smphoto8} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto19} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto20} className="img-fluid" width="210px" />
                         </div>
                         <div>
-                          <img src={photo1} className="img-fluid" width="210px" />
+                          <img src={Smphoto21} className="img-fluid" width="210px" />
                         </div>
                       </Slider>
                       
@@ -292,22 +317,22 @@ export default class Services extends React.Component {
                         ref={slider => (this.slider5 = slider)}
                       >
                         <div>
-                          <img src={photo9} className="img-fluid" />
+                          <img src={Lgphoto19} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo9} className="img-fluid" />
+                          <img src={Lgphoto20} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo9} className="img-fluid" />
+                          <img src={Lgphoto21} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo9} className="img-fluid" />
+                          <img src={Lgphoto6} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo9} className="img-fluid" />
+                          <img src={Lgphoto7} className="img-fluid" />
                         </div>
                         <div>
-                          <img src={photo9 } className="img-fluid" />
+                          <img src={Lgphoto8} className="img-fluid" />
                         </div>
 
                       </Slider>
@@ -342,10 +367,11 @@ export default class Services extends React.Component {
           </div> */}
         </div>
         <div>
+        {/* <div id='banner' className='box'> */}
         <div class="Bianer">
             <small>LEATHER GOODS AND FOOTWEAR</small>
         </div>
-       
+       {/* </div> */}
       
         {/* <div class="Bianer2">
             <small>LEATHER GOODS AND FOOTWEAR</small>

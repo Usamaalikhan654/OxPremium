@@ -1,0 +1,59 @@
+.hideshow.app {
+  display: block;
+}
+
+.hideshow {
+  display: none;
+}
+
+.input-1 {
+  /* Rectangle 97 */
+
+  /* position: absolute; */
+
+  /* left: 1428px;
+       top: 3444px;
+       margin-top: 40px; */
+  /* margin-left: 30px; */
+
+  padding-left: 7px;
+  font-family: Futura Lt BT;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: white;
+  background: transparent;
+}
+
+#appelement {
+  position: absolute;
+  width: 100%;
+}
+
+.autocomplete {
+  position: relative;
+}
+
+.autocomplete-search-results-list {
+  padding-left: 15px;
+  padding-top: 20px;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+.autocomplete-search-results-list .keyword a {
+  color: black;
+  padding-top: 9px;
+  padding-bottom: 6px;
+}
+
+.searchIcon {
+  width: 15px;
+  height: 15px;
+  color: white;
+  margin-left: -27px;
+}

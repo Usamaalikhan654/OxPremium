@@ -47,7 +47,6 @@
 }
 
 .Bianer {
-  border: 0px solid orange;
   background-color: #000000;
   float: left;
   position: absolute;
@@ -64,7 +63,6 @@
   padding-right: 10px;
 }
 .Bianer2 {
-  border: 0px solid orange;
   background-color: #000000;
   float: left;
   position: absolute;
@@ -82,7 +80,7 @@
 }
 
 .Bianer {
-  top: 46%;
+  top: 48%;
 }
 
 .Bianer2 {
@@ -147,9 +145,19 @@
 }
 
 .sub-main-heading {
-  font-family: Roboto;
+  font-family: Futura;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+}
+.box {
+  position: fixed;
+  width: 100%;
+  bottom: 40%;
+  top: 50%;
+  transform: translate3d(0, 0, 0);
+  will-change: position, transform;
+  /* overflow-y: auto; */
+  scroll-behavior: smooth;
 }

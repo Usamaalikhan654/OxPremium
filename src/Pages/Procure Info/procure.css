@@ -10,3 +10,21 @@
 
   color: #000000;
 }
+
+.display-head {
+  font-family: "Futura Md Bt";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43.15px;
+  text-align: center;
+}
+
+.sub-head {
+  font-family: "Futura Md Bt";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.97px;
+  text-align: center;
+}

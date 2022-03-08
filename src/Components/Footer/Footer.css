@@ -30,7 +30,7 @@
   padding: 3px;
   position: relative;
   left: 255px;
-  bottom: 46px;
+  bottom: 87px;
 }
 
 .list-unstyled {
@@ -254,10 +254,12 @@
   background-color: #ffff !important;
   border-color: #ffff !important;
   border-radius: 1px !important;
+  color: #000;
 }
 
 .button-style:hover {
-  color: #000000 !important;
+  color: white !important;
+  background-color: #000 !important;
 }
 
 .checked {
