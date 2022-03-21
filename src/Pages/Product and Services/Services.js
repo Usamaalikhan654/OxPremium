@@ -368,9 +368,9 @@ export default class Services extends React.Component {
         </div>
         <div>
         {/* <div id='banner' className='box'> */}
-        <div class="Bianer">
+        {/* <div class="Bianer">
             <small>LEATHER GOODS AND FOOTWEAR</small>
-        </div>
+        </div> */}
        {/* </div> */}
       
         {/* <div class="Bianer2">

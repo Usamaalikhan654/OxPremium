@@ -42,7 +42,7 @@ import pic35 from "../../Assets/Bizintel Company Profile-19 2.png";
 import pic36 from "../../Assets/LOGOS-10 1.png";
 import pic37 from "../../Assets/PROFILE NEW-37 3.png";
 import { withRouter } from 'react-router-dom';
-
+import Arrow from "../../Assets/arrow.png"
 
 export default class Info extends React.Component {
 

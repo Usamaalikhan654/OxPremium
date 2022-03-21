@@ -63,13 +63,13 @@ const Footer = () => <footer className="page-footer font-small blue pat">
                 <div class="col-sm-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">PROCUREMENT SERVICES</h5>
                 <ul className="list-unstyled">
-                    <li>Safety PPE’s</li>
+                  <Link to="/Procured"><li>Safety PPE’s</li></Link>
                     <br/>
-                    <li>Covid 19 Supplies</li>
+                    <Link to="/Procure"><li>Covid 19 Supplies</li></Link>
                     <br/>
-                    <li>Corporate & Industrial Supplies</li>
+                    <Link to="/Procure"><li>Corporate & Industrial Supplies</li></Link>
                     <br/>
-                    <li>Office and general supplies</li>
+                    <Link to="/Procure"><li>Office and general supplies</li></Link>
                 </ul>
                 </div>
 
@@ -110,8 +110,8 @@ const Footer = () => <footer className="page-footer font-small blue pat">
   <div className="col-lg-12 footer-bottom-border"></div>
          <div className="col-lg-6 text-center">
               <div className="foot-head">
-               <span>Privacy Policy</span>
-               <span>TERMS & CONDITIONS</span>
+               {/* <span>Privacy Policy</span>
+               <span>TERMS & CONDITIONS</span> */}
               </div> 
            </div> 
 
