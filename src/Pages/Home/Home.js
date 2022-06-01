@@ -14,7 +14,7 @@ const Home = () => {
     <div className="custom-container">
     <img src={headerphoto} className="img-fluid" />
    </div>
-
+  
 </div>
      <Info/>
     <Footer/>
